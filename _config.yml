@@ -4,11 +4,14 @@ theme: jekyll-theme-minimal  # or 'cayman', 'slate', 'architect'
 author:
   name: "Nikolas Xiros"
   email: "nikolasxiros2002@gmail.com"
-# Navigation links
+# Navigation bar (for themes that support it)
+# Cayman will use these as buttons at the top
 navigation:
   - title: "Home"
     url: /
-  - title: "About"
-    url: /about/
   - title: "Projects"
     url: /projects/
+  - title: "About"
+    url: /about/
+  - title: "Personal Interests"
+    url: /interests/

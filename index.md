@@ -2,8 +2,8 @@
 title: "Home"
 ---
 
-# 👋 Hello, I'm Your Name
+# 👋 Welcome
 
-This is a short bio about me — my interests, work, or background.
+Hi, I'm **Nikolas Xiros** — a passionate student/researcher/developer interested in AI, robotics, or whatever you want here.
 
-Use the links in the navigation bar to learn more about me.
+Use the navigation above to learn more about my work and interests.

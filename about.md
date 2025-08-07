@@ -1,8 +1,14 @@
 ---
-title: "About Me"
+title: "About"
 permalink: /about/
 ---
 
-## About Me
+# 📘 About Me
 
-More detailed information — your studies, interests, research, etc.
+I'm **Nikolas Xiros**, an undergraduate in Electrical & Computer Engineering at NTUA.
+
+I enjoy working on:
+
+- Multimodal learning
+- Neural networks for robotics
+- AI interpretability and generalization
