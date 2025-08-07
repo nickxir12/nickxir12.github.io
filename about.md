@@ -1,14 +1,15 @@
 ---
 title: "About"
-permalink: /about/
+permalink: /about.html
 ---
 
 # 📘 About Me
 
-I'm **Nikolas Xiros**, an undergraduate in Electrical & Computer Engineering at NTUA.
+I'm **Nikolaos Xi̱ros**, currently finishing my undergraduate degree in Electrical and Computer Engineering at NTUA.
 
-I enjoy working on:
-
+I specialize in:
 - Multimodal learning
-- Neural networks for robotics
-- AI interpretability and generalization
+- Neural networks and deep learning
+- AI generalization and interpretability
+
+I've studied abroad at DTU in Denmark and participated in research programs at USTC in China.

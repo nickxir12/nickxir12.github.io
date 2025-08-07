@@ -1,11 +1,11 @@
 ---
 title: "Personal Interests"
-permalink: /interests/
+permalink: /interests.html
 ---
 
 # 🎯 Personal Interests
 
-When I'm not building AI models or simulations, I enjoy:
+When I'm not building AI systems, I enjoy:
 
-
-- ✍️ Writing about AI, cognition, and philosophy
+- 🎾 Running, and going to the gym
+- ✍️ Writing about AI, ethics, and cognition

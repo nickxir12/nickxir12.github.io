@@ -2,7 +2,6 @@
 title: "Home"
 ---
 
-
 <p align="center">
   <a href="/">Home</a> |
   <a href="/projects.html">Projects</a> |
@@ -14,6 +13,7 @@ title: "Home"
 
 # 👋 Welcome
 
-Hi, I'm **Nikolas Xiros** — a passionate student/researcher/developer interested in AI, robotics, or whatever you want here.
+I'm **Nikolaos Xi̱ros**, an undergraduate student at the National Technical University of Athens.  
+I'm passionate about AI, multimodal learning, and exploring how intelligent systems understand the world.
 
-Use the navigation above to learn more about my work and interests.
+You can navigate the site using the menu above to learn more about my work and interests.

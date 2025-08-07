@@ -1,13 +1,13 @@
 ---
 title: "Projects"
-permalink: /projects/
+permalink: /projects.html
 ---
 
 # 🚀 Projects
 
-Here are some of the things I've worked on:
+### Spirob Robot Modeling
+Neural network–based dynamic modeling and control integration for a soft robot arm.
 
-- **SpiRob Control System** – Soft robot modeled using Koopman dynamics and neural nets.
-- **CLIP + DINO Fusion** – Improving image-text alignment in multimodal models.
+### CLIP + DINOv2 Alignment
+Enhanced image-text embedding spaces by combining contrastive learning and self-supervised visual features.
 
-More coming soon!
