@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-<p align="center">
+<p align="center" style="margin-top: 0.5rem; margin-bottom: 0.5rem; line-height: 1.2;">
   <a href="/">Home</a> |
   <a href="/projects.html">Projects</a> |
   <a href="/about.html">About</a> |
