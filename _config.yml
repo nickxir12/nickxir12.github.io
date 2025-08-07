@@ -4,3 +4,11 @@ theme: jekyll-theme-minimal  # or 'cayman', 'slate', 'architect'
 author:
   name: "Nikolas Xiros"
   email: "nikolasxiros2002@gmail.com"
+# Navigation links
+navigation:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
