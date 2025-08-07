@@ -1,9 +1,7 @@
 title: "Nikolas Xiros"
 description: "Short bio line here"
 theme: jekyll-theme-minimal  # or 'cayman', 'slate', 'architect'
-author:
-  name: "Nikolas Xiros"
-  email: "nikolasxiros2002@gmail.com"
+
 # Navigation bar (for themes that support it)
 # Cayman will use these as buttons at the top
 navigation:
