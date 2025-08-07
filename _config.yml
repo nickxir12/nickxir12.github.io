@@ -1,3 +1,6 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: "Nikolas Xiros"
+description: "Short bio line here"
+theme: jekyll-theme-minimal  # or 'cayman', 'slate', 'architect'
+author:
+  name: "Nikolas Xiros"
+  email: "nikolasxiros2002@gmail.com"
