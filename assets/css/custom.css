@@ -1,0 +1,11 @@
+.page-header {
+  padding: 1rem 2rem;         /* Reduce vertical spacing */
+}
+
+.project-name {
+  font-size: 1.5rem;          /* Smaller site title */
+}
+
+.project-tagline {
+  font-size: 0.9rem;          /* Smaller tagline */
+}

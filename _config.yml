@@ -1,3 +1,6 @@
 title: "Nikolaos Xi̱ros"
 description: "AI & Multimodal Learning Enthusiast | ECE @ NTUA"
 theme: jekyll-theme-cayman
+
+include:
+  - assets/css

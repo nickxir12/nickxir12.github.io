@@ -2,6 +2,19 @@
 title: "Home"
 ---
 
+<style>
+/* Shrink header height and font size */
+.page-header {
+  padding: 1rem 1.5rem;
+}
+.project-name {
+  font-size: 1.5rem;
+}
+.project-tagline {
+  font-size: 0.9rem;
+}
+</style>
+
 <p align="center" style="margin-top: 0.5rem; margin-bottom: 0.5rem; line-height: 1.2;">
   <a href="/">Home</a> |
   <a href="/projects.html">Projects</a> |
@@ -16,4 +29,4 @@ title: "Home"
 I'm **Nikolaos Xi̱ros**, an undergraduate student at the National Technical University of Athens.  
 I'm passionate about AI, multimodal learning, and exploring how intelligent systems understand the world.
 
-You can navigate the site using the menu above to learn more about my work and interests.
+Use the navigation bar above to explore my projects and learn more about me.
