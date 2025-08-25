@@ -38,7 +38,7 @@ permalink: /interests.html
 }
 </style>
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=3' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=5' | relative_url }}">
 
 
 <p align="center" style="margin-top: 0.5rem; margin-bottom: 0.5rem; line-height: 1.2;">
