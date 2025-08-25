@@ -31,6 +31,9 @@ permalink: /interests.html
 
 When I'm not building AI systems, I enjoy:
 
--  Phtographing, capturing moments
+
+-  Writing about AI, ethics, and more
+    You can check my blogpost
 -  Running, and going to the gym
--  Writing about AI, ethics, and cognition
+-  Photographing, capturing moments
+    Some selected photos you can see below:
