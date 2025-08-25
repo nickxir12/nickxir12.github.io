@@ -1,10 +1,30 @@
 /* Hide the Cayman accessibility link */
-/* .skip-to-content { display: none !important; } */
+.skip-to-content,
+.site-footer {
+  display: none !important;
+}
 
 /* Light body */
 html, body {
   background: #ffffff;
   color: #1b1f23;
+}
+
+nav strong {
+  color: #ffa94d;  /* orange highlight */
+}
+
+
+.columns {
+  display: flex;
+  justify-content: center; /* center whole group */
+  gap: 2rem;               /* spacing between columns */
+  margin: 2rem auto;
+  max-width: 1000px;
+}
+.column {
+  flex: 1;
+  text-align: center;
 }
 
 /* Header section (dark) */

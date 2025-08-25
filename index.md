@@ -4,14 +4,22 @@ title: "Home"
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=5' | relative_url }}">
 
-<p align="center">
-  <a href="/">Home</a> |
-  <a href="/projects.html">Projects</a> |
-  <a href="/about.html">About</a> |
-  <a href="/interests.html">Interests</a>
-</p>
+{% include nav.html %}
 
 ---
+
+<div class="columns">
+  <div class="column">
+    <h3>Left Region</h3>
+    <p>Some content (e.g. an image or list)</p>
+  </div>
+
+  <div class="column">
+    <h3>Right Region</h3>
+    <p>Some other content (e.g. another image)</p>
+  </div>
+</div>
+
 
 # 👋 Welcome
 
