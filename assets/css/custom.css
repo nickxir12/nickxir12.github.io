@@ -10,6 +10,14 @@ html, body {
   color: #1b1f23;
 }
 
+.main-content ul,
+.main-content ol {
+  display: inline-block;   /* shrink-wraps list so it's centered */
+  text-align: left;        /* keeps bullets + text aligned properly */
+  margin: 1rem auto;       /* centers the list itself */
+  padding-left: 1.2rem;    /* small indent for bullets */
+}
+
 nav strong {
   color: #ffa94d;  /* orange highlight */
 }
