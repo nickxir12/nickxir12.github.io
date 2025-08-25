@@ -8,7 +8,7 @@ body {
 /* Darker blue/grey gradient for header */
 .page-header {
   background: linear-gradient(135deg, #1c1f2b, #2c3e50); /* dark grey → dark blue */
-  padding: 1.5rem 1.5rem;  /* controls header height */
+  padding: 0.5rem 1.5rem;  /* controls header height */
   color: #ffffff;
   border-bottom: 1px solid #444;
 }
