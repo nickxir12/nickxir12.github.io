@@ -4,10 +4,6 @@ permalink: /interests.html
 ---
 
 <style>
-/* Keep the header compact */
-.page-header { padding: 1rem 1.5rem; }
-.project-name { font-size: 1.5rem; }
-.project-tagline { font-size: 0.9rem; }
 
 /* --- Gallery layout --- */
 .gallery {

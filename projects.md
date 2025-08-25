@@ -3,18 +3,6 @@ title: "Projects"
 permalink: /projects.html
 ---
 
-<style>
-/* Shrink header height and font size */
-.page-header {
-  padding: 1rem 1.5rem;
-}
-.project-name {
-  font-size: 1.5rem;
-}
-.project-tagline {
-  font-size: 0.9rem;
-}
-</style>
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=3' | relative_url }}">
 
