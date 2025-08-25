@@ -14,7 +14,7 @@ body {
 }
 
 .page-header {
-  height: 20px;  /* exact height */
+  height: 2px;  /* exact height */
   display: flex;
   flex-direction: column;
   justify-content: center; /* vertically center text */
