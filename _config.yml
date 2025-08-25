@@ -1,6 +1,8 @@
 title: "Nikolaos Xi̱ros"
 description: "AI & Multimodal Learning Early Researcher | ECE @ NTUA"
 theme: jekyll-theme-cayman
+url: "https://nickxir12.github.io"
+baseurl: ""
 
 include:
   - assets/css
