@@ -8,18 +8,6 @@ title: "Home"
 
 ---
 
-<div class="columns">
-  <div class="column">
-    <h3>Left Region</h3>
-    <p>Some content (e.g. an image or list)</p>
-  </div>
-
-  <div class="column">
-    <h3>Right Region</h3>
-    <p>Some other content (e.g. another image)</p>
-  </div>
-</div>
-
 
 # 👋 Welcome
 
