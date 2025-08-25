@@ -7,7 +7,7 @@ body {
 /* Top header section */
 .page-header {
   background: linear-gradient(135deg, #0a0a0f, #0d1b2a); /* nearly black → deep navy */
-  padding: 3rem 1.5rem;   /* controls header height */
+  padding: 1rem 1.5rem;   /* controls header height */
   color: #ffffff;
   border-bottom: 1px solid #222;
   display: flex;
