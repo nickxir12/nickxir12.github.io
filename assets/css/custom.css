@@ -1,62 +1,41 @@
 /* Page background */
-body {
-  background-color: #121212; /* almost black */
+html, body {
+  background-color: #121212;
   color: #e0e0e0;
 }
 
-/* Top header section */
-.page-header {
-  background: linear-gradient(135deg, #0a0a0f, #0d1b2a); /* nearly black → deep navy */
-  padding: 1rem 1.5rem;   /* controls header height */
-  color: #ffffff;
-  border-bottom: 1px solid #222;
+/* Force override of Cayman's green header */
+.page-header{
+  /* kill theme background first */
+  background: none !important;
+  background-image: linear-gradient(135deg, #06070a, #0b1220) !important; /* black → deep navy */
+  /* or use a solid bar: background-color: #0b1220 !important; */
+
+  /* header height */
+  padding: 2.5rem 1.5rem;      /* adjust to taste */
+  min-height: 160px;           /* optional: guaranteed height */
   display: flex;
   flex-direction: column;
-  justify-content: center; /* vertically center content */
+  justify-content: center;
+  color: #fff;
+  border-bottom: 1px solid #1b1f2a;
 }
 
 /* Title & tagline */
-.project-name {
-  font-size: 2rem;
-  color: #f5f5f5;
-}
-.project-tagline {
-  font-size: 1rem;
-  color: #c0c0c0;
-}
+.project-name { font-size: 2rem; color: #f5f5f5; }
+.project-tagline { font-size: 1rem; color: #c0c0c0; }
 
-/* Main headings */
-h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
-}
-
-/* Paragraph text */
-p {
-  color: #d0d0d0;
-}
+/* Content */
+h1, h2, h3, h4, h5, h6 { color: #ffffff; }
+p { color: #d0d0d0; }
 
 /* Links */
-a {
-  color: #4dabf7; /* soft blue */
-  text-decoration: none;
-}
-a:hover {
-  color: #ffa94d; /* orange highlight */
-  text-decoration: underline;
-}
+a { color: #4dabf7; text-decoration: none; }
+a:hover { color: #ffa94d; text-decoration: underline; }
 
 /* Navbar */
-p[align="center"] a {
-  padding: 0 0.6rem;
-  font-weight: 600;
-  color: #4dabf7;
-}
-p[align="center"] a:hover {
-  color: #ffa94d;
-}
+p[align="center"] a { padding: 0 0.6rem; font-weight: 600; color: #4dabf7; }
+p[align="center"] a:hover { color: #ffa94d; }
 
 /* Code blocks */
-pre, code {
-  background-color: #1e1e1e;
-  color: #f5f5f5;
-}
+pre, code { background-color: #1e1e1e; color: #f5f5f5; }
