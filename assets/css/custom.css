@@ -51,5 +51,14 @@ p[align="center"] a:hover {
   color: #ffa94d;
 }
 
+.main-content {
+  background: #ffffff;
+  color: #1b1f23;
+  max-width: 860px;
+  margin: 0 auto;      /* horizontally center the block */
+  padding: 2rem;
+  text-align: center;  /* NEW: center text inside */
+}
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 { color: #111; }
