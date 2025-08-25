@@ -13,6 +13,13 @@ body {
   border-bottom: 1px solid #444;
 }
 
+.page-header {
+  height: 20px;  /* exact height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center text */
+}
+
 .project-name {
   font-size: 2rem;
   color: #f5f5f5;
