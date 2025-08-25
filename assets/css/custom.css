@@ -1,32 +1,28 @@
-/* Dark background and light text */
+/* Page background */
 body {
   background-color: #121212; /* almost black */
-  color: #e0e0e0; /* light gray text */
+  color: #e0e0e0;
 }
 
-/* Header */
-/* Darker blue/grey gradient for header */
+/* Top header section */
 .page-header {
-  background: linear-gradient(135deg, #1c1f2b, #2c3e50); /* dark grey → dark blue */
-  padding: 0.5rem 1.5rem;  /* controls header height */
+  background: linear-gradient(135deg, #0a0a0f, #0d1b2a); /* nearly black → deep navy */
+  padding: 3rem 1.5rem;   /* controls header height */
   color: #ffffff;
-  border-bottom: 1px solid #444;
-}
-
-.page-header {
-  height: 2px;  /* exact height */
+  border-bottom: 1px solid #222;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* vertically center text */
+  justify-content: center; /* vertically center content */
 }
 
+/* Title & tagline */
 .project-name {
   font-size: 2rem;
   color: #f5f5f5;
 }
 .project-tagline {
   font-size: 1rem;
-  color: #d0d0d0;
+  color: #c0c0c0;
 }
 
 /* Main headings */
@@ -49,7 +45,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Navbar style */
+/* Navbar */
 p[align="center"] a {
   padding: 0 0.6rem;
   font-weight: 600;
@@ -59,7 +55,7 @@ p[align="center"] a:hover {
   color: #ffa94d;
 }
 
-/* Optional: code blocks */
+/* Code blocks */
 pre, code {
   background-color: #1e1e1e;
   color: #f5f5f5;
