@@ -58,43 +58,39 @@ permalink: /interests.html
 When I'm not building AI systems, I enjoy:
 
 - Writing about AI, ethics, and more — see my blog posts soon.
-- Running and going to the gym.
 - Photography — a few collections below.
 
-## 📸 Photo Collections
+##  Photo Collections
 
-<div class="section-title">Street & Travel</div>
+<div class="section-title">China days</div>
 <div class="gallery">
   <figure class="photo-card">
-    <img src="/assets/img/street_01.jpg" alt="Street photo 1">
-    <figcaption>Athens — evening light</figcaption>
+    <img src="/assets/img/China/NIK00604_01.jpg" alt="Street photo 1">
   </figure>
   <figure class="photo-card">
-    <img src="/assets/img/street_02.jpg" alt="Street photo 2">
-    <figcaption>Rome — quiet alley</figcaption>
+    <img src="/assets/img/China/NIK001194.jpg" alt="Street photo 2">
+  </figure>
+    <figure class="photo-card">
+    <img src="/assets/img/China/NIK0014_88.jpg" alt="Street photo 2">
+  </figure>
+    <figure class="photo-card">
+    <img src="/assets/img/China/NIK001514.jpg" alt="Street photo 2">
+  </figure>
+    <figure class="photo-card">
+    <img src="/assets/img/China/NIK02202_02.jpg" alt="Street photo 2">
+  </figure>
+    <figure class="photo-card">
+    <img src="/assets/img/China/NIK02424.jpg" alt="Street photo 2">
   </figure>
 </div>
 
-<div class="section-title">Nature & Landscapes</div>
+<div class="section-title">Athens</div>
 <div class="gallery">
-  <figure class="photo-card">
+  <!-- <figure class="photo-card">
     <img src="/assets/img/nature_01.jpg" alt="Nature photo 1">
-    <figcaption>Sunrise over the ridge</figcaption>
   </figure>
   <figure class="photo-card">
     <img src="/assets/img/nature_02.jpg" alt="Nature photo 2">
-    <figcaption>Sea & clouds</figcaption>
-  </figure>
+  </figure> -->
 </div>
 
-<div class="section-title">People & Moments</div>
-<div class="gallery">
-  <figure class="photo-card">
-    <img src="/assets/img/people_01.jpg" alt="People photo 1">
-    <figcaption>Candid smile</figcaption>
-  </figure>
-  <figure class="photo-card">
-    <img src="/assets/img/people_02.jpg" alt="People photo 2">
-    <figcaption>Friends at sunset</figcaption>
-  </figure>
-</div>
