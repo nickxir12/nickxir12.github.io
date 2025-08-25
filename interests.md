@@ -4,15 +4,41 @@ permalink: /interests.html
 ---
 
 <style>
-/* Shrink header height and font size */
-.page-header {
-  padding: 1rem 1.5rem;
+/* Keep the header compact */
+.page-header { padding: 1rem 1.5rem; }
+.project-name { font-size: 1.5rem; }
+.project-tagline { font-size: 0.9rem; }
+
+/* --- Gallery layout --- */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 per row */
+  gap: 12px;
+  margin: 0.75rem 0 1.5rem;
 }
-.project-name {
-  font-size: 1.5rem;
+@media (max-width: 720px) {
+  .gallery { grid-template-columns: 1fr; } /* 1 per row on phones */
 }
-.project-tagline {
+.photo-card {
+  background: rgba(255,255,255,0.04); /* looks good on dark & light */
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.photo-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.photo-card figcaption {
+  padding: 8px 10px;
   font-size: 0.9rem;
+  opacity: 0.9;
+}
+.section-title {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
 }
 </style>
 
@@ -22,18 +48,53 @@ permalink: /interests.html
   <a href="/index.html">Home</a> |
   <a href="/projects.html">Projects</a> |
   <a href="/about.html">About</a> |
-  <a href="/">Interests</a>
+  <strong>Interests</strong>
 </p>
 
 ---
 
-#  Personal Interests
+# Personal Interests
 
 When I'm not building AI systems, I enjoy:
 
+- Writing about AI, ethics, and more — see my blog posts soon.
+- Running and going to the gym.
+- Photography — a few collections below.
 
--  Writing about AI, ethics, and more
-    You can check my blogpost
--  Running, and going to the gym
--  Photographing, capturing moments
-    Some selected photos you can see below:
+## 📸 Photo Collections
+
+<div class="section-title">Street & Travel</div>
+<div class="gallery">
+  <figure class="photo-card">
+    <img src="/assets/img/street_01.jpg" alt="Street photo 1">
+    <figcaption>Athens — evening light</figcaption>
+  </figure>
+  <figure class="photo-card">
+    <img src="/assets/img/street_02.jpg" alt="Street photo 2">
+    <figcaption>Rome — quiet alley</figcaption>
+  </figure>
+</div>
+
+<div class="section-title">Nature & Landscapes</div>
+<div class="gallery">
+  <figure class="photo-card">
+    <img src="/assets/img/nature_01.jpg" alt="Nature photo 1">
+    <figcaption>Sunrise over the ridge</figcaption>
+  </figure>
+  <figure class="photo-card">
+    <img src="/assets/img/nature_02.jpg" alt="Nature photo 2">
+    <figcaption>Sea & clouds</figcaption>
+  </figure>
+</div>
+
+<div class="section-title">People & Moments</div>
+<div class="gallery">
+  <figure class="photo-card">
+    <img src="/assets/img/people_01.jpg" alt="People photo 1">
+    <figcaption>Candid smile</figcaption>
+  </figure>
+  <figure class="photo-card">
+    <img src="/assets/img/people_02.jpg" alt="People photo 2">
+    <figcaption>Friends at sunset</figcaption>
+  </figure>
+</div>
