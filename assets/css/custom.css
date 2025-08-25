@@ -57,14 +57,6 @@ nav strong {
   margin-top: 0;
 }
 
-/* Main content area */
-.main-content {
-  background: #ffffff;
-  color: #1b1f23;
-  max-width: 860px;
-  margin: 0 auto; /* center the content block */
-  padding: 2rem;
-}
 
 /* Navigation bar */
 p[align="center"] {
@@ -80,12 +72,20 @@ p[align="center"] a:hover {
 }
 
 .main-content {
-  background: #ffffff;
-  color: #1b1f23;
   max-width: 860px;
-  margin: 0 auto;      /* horizontally center the block */
+  margin: 0 auto;      /* center block */
   padding: 2rem;
-  text-align: center;  /* NEW: center text inside */
+  text-align: center;  /* center text inside */
+  border-left: 2px solid #e0e0e0;   /* left line */
+  border-right: 2px solid #e0e0e0;  /* right line */
+}
+
+/* Optional: make lines subtle on dark mode */
+@media (prefers-color-scheme: dark) {
+  .main-content {
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+  }
 }
 
 /* Headings */
