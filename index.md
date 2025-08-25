@@ -9,7 +9,7 @@ title: "Home"
 ---
 
 
-# 👋 Welcome
+#  Welcome
 
 I'm **Nikolaos Xi̱ros**, an undergraduate student at the National Technical University of Athens.  
 I'm passionate about AI, multimodal learning, and exploring how intelligent systems understand the world.

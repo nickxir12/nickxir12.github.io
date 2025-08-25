@@ -23,16 +23,16 @@ When I’m not building AI systems, I enjoy:
     <img src="{{ '/assets/img/China/NIK00604_01.jpg' | relative_url }}" alt="Street photo 1">
   </figure>
   <figure class="photo-card">
-    <img src="{{ '/assets/img/China/NIK001194.jpg' | relative_url }}" alt="Street photo 2">
+    <img src="{{ '/assets/img/China/NIK01194.jpg' | relative_url }}" alt="Street photo 2">
   </figure>
   <figure class="photo-card">
-    <img src="{{ '/assets/img/China/NIK0014_88.jpg' | relative_url }}" alt="Street photo 3">
+    <img src="{{ '/assets/img/China/NIK01488.jpg' | relative_url }}" alt="Street photo 3">
   </figure>
   <figure class="photo-card">
-    <img src="{{ '/assets/img/China/NIK001514.jpg' | relative_url }}" alt="Street photo 4">
+    <img src="{{ '/assets/img/China/NIK01514.jpg' | relative_url }}" alt="Street photo 4">
   </figure>
   <figure class="photo-card">
-    <img src="{{ '/assets/img/China/NIK02202_02.jpg' | relative_url }}" alt="Street photo 5">
+    <img src="{{ '/assets/img/China/NIK02201_02.jpg' | relative_url }}" alt="Street photo 5">
   </figure>
   <figure class="photo-card">
     <img src="{{ '/assets/img/China/NIK02424.jpg' | relative_url }}" alt="Street photo 6">
