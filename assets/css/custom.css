@@ -1,11 +1,48 @@
+/* Dark background and light text */
+body {
+  background-color: #121212; /* almost black */
+  color: #e0e0e0; /* light gray text */
+}
+
+/* Header */
 .page-header {
-  padding: 1rem 2rem;         /* Reduce vertical spacing */
+  background-color: #1f1f1f; /* dark gray */
+  color: #ffffff;
+  border-bottom: 1px solid #333;
 }
 
-.project-name {
-  font-size: 1.5rem;          /* Smaller site title */
+/* Main headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
 }
 
-.project-tagline {
-  font-size: 0.9rem;          /* Smaller tagline */
+/* Paragraph text */
+p {
+  color: #d0d0d0;
+}
+
+/* Links */
+a {
+  color: #4dabf7; /* soft blue */
+  text-decoration: none;
+}
+a:hover {
+  color: #ffa94d; /* orange highlight */
+  text-decoration: underline;
+}
+
+/* Navbar style */
+p[align="center"] a {
+  padding: 0 0.6rem;
+  font-weight: 600;
+  color: #4dabf7;
+}
+p[align="center"] a:hover {
+  color: #ffa94d;
+}
+
+/* Optional: code blocks */
+pre, code {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
 }
