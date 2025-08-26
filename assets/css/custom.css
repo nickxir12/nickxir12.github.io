@@ -76,17 +76,15 @@ p[align="center"] a:hover {
   margin: 0 auto;      /* center block */
   padding: 2rem;
   text-align: center;  /* center text inside */
-  border-left: 2px solid #e0e0e0;   /* left line */
-  border-right: 2px solid #e0e0e0;  right line
 }
 
-Optional: make lines subtle on dark mode
+/* Optional: make lines subtle on dark mode
 @media (prefers-color-scheme: dark) {
   .main-content {
     border-left: 2px solid #333;
     border-right: 2px solid #333;
   }
-}
+} */
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 { color: #111; }
