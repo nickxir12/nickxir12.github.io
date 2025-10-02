@@ -27,6 +27,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff !important;
 }
 
+.conference-note {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.95rem;
+  color: #aab2c5;  /* softer gray-blue */
+  font-style: italic;
+}
+
 .hero-banner h3 {
   font-size: 1.2rem;
   font-weight: 600;
