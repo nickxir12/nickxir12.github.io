@@ -29,6 +29,13 @@ permalink: /projects.html
   <h3>Spirob Robot Modeling</h3>
   <p>Neural network–based dynamic modeling and control integration for a soft robot arm.</p>
 
-  <h3>Computer Vision and Language Alignment</h3>
+  <h3>Computer Vision and Language Alignment (Master’s Thesis)</h3>
   <p>Exploring cross-modal representations between text and images using CLIP and DINO.</p>
+
+  <h3>Multimodal Sentiment Analysis</h3>
+  <p>
+    <em>“All interactions matter: Modality-Preserving Deep Fusion for Multimodal Sentiment Analysis”</em>, 
+    submitted at ICASSP 2026.
+  </p>
+
 </section>
