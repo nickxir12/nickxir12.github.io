@@ -11,7 +11,7 @@ title: "Home"
 ---
 
 <div class="hero">
-  <img src="/assets/mine/My_photo.jpg" alt="Nikolaos Xi̱ros" class="hero-pic">
+  <img src="/assets/css/img/mine/My_photo.jpg" alt="Nikolaos Xi̱ros" class="hero-pic">
   <div class="hero-text">
     <h1>Hi, I’m Nikolaos 👋</h1>
     <p>AI & Multimodal Learning Researcher @ NTUA</p>
