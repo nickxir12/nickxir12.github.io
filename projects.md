@@ -35,7 +35,6 @@ permalink: /projects.html
     <span class="conference-note">submitted at ICASSP 2026.</span>
     </p>
 
-
   <h3>SpiRob Robot Modeling</h3>
   <p>Neural network–based dynamic modeling and control integration for a soft robot.</p>
 
