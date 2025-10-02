@@ -17,7 +17,7 @@ permalink: /interests.html
   <div class="card-grid">
     <div class="card">
       <h2>📸 Photography</h2>
-      <p>I capture cityscapes, nature, and creative moments.</p>
+      <p>I capture moments.</p>
       <a href="https://www.flickr.com/people/203606562@N02/">See photos →</a>
     </div>
     <div class="card">
