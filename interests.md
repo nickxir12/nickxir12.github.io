@@ -1,5 +1,5 @@
 ---
-title: "Personal Interests"
+title: "Interests"
 permalink: /interests.html
 ---
 
@@ -10,7 +10,7 @@ permalink: /interests.html
 
 
 <section class="section-box">
-  <h1>Personal Interests</h1>
+  <h1>Interests</h1>
   <p>
   When I’m not building AI systems, I enjoy:
   <p>
