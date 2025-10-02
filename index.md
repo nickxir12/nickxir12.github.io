@@ -11,10 +11,12 @@ title: "Home"
 ---
 
 <section class="hero-banner">
-  <img src="/assets/css/img/mine/My_photo.jpg" alt="Nikolaos Xi̱ros" class="hero-pic">
-  <div class="hero-content">
-    <h1>Hi, I’m Nikolaos 👋</h1>
-    <p>AI & Multimodal Learning Researcher @ NTUA</p>
+  <div class="hero-inner">
+    <img src="/assets/css/img/mine/My_photo.jpg" alt="Nikolaos Xi̱ros" class="hero-pic">
+    <div class="hero-content">
+      <h1>Hi, I’m Nikolaos 👋</h1>
+      <p>AI & Multimodal Learning Researcher @ NTUA</p>
+    </div>
   </div>
 </section>
 
