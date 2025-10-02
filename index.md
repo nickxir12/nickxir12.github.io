@@ -27,6 +27,4 @@ I'm passionate about AI, multimodal learning, and exploring how intelligent syst
 
 Use the navigation bar above to explore my projects and learn more about me.
 
-<footer class="site-footer-custom">
-  <p>© 2025 Nikolaos Xi̱ros | Built with Jekyll</p>
-</footer>
+
