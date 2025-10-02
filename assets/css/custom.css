@@ -1,10 +1,11 @@
 /* Hide the Cayman accessibility link */
 
 html, body {
-  background: linear-gradient(135deg, #0b1220, #1b2735);
-  color: #e6e6e6;
+  background: linear-gradient(135deg, #1a1f2e, #2a3248);
+  color: #cfd4dc;
   font-family: 'Inter', sans-serif;
   line-height: 1.7;
+  margin: 0;
 }
 
 h1, h2, h3 {
@@ -12,19 +13,15 @@ h1, h2, h3 {
   font-weight: 700;
   letter-spacing: -0.5px;
 }
-
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  margin: 2rem auto;
-  flex-wrap: wrap;
-}
+/* Hero Banner */
 .hero-banner {
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #06070a, #0b1220);
-  color: #fff;
+  background: linear-gradient(135deg, #202739, #2f3b52);
+  border-radius: 12px;
+  max-width: 950px;
+  margin: 2rem auto;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  color: #e6e6e6;
 }
 
 .hero-inner {
@@ -32,32 +29,51 @@ h1, h2, h3 {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  max-width: 900px;
-  margin: 0 auto;
-  flex-wrap: wrap; /* makes it stack on mobile */
+  flex-wrap: wrap;
 }
 
+/* Profile Photo */
 .hero-pic {
   width: 180px;
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #ffa94d;
+  border: 3px solid #fca311; /* accent orange */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-.hero-content {
-  max-width: 500px;
-}
-
+/* Text */
 .hero-content h1 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
+  color: #ffffff;
 }
 
 .hero-content p {
-  font-size: 1.2rem;
-  opacity: 0.85;
+  font-size: 1.1rem;
+  color: #cfd4dc;
+  opacity: 0.9;
+}
+
+/* Links (navbar + content) */
+a {
+  color: #fca311;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffb84d;
+}
+
+/* Section (like Welcome) */
+.section {
+  background: #242b3b;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  text-align: center;
 }
 
 a.skip-to-content {
