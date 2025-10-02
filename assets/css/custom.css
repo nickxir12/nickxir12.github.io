@@ -193,3 +193,25 @@ h1, h2, h3, h4, h5, h6 { color: #111; }
   margin: 1rem auto;
   padding-left: 1.2rem;
 }
+
+
+/* Override Cayman theme background */
+html, body {
+  background: linear-gradient(135deg, #0b1220, #1b2735) !important;
+  color: #e6e6e6 !important;
+}
+
+/* Remove forced white from Cayman containers */
+.main-content,
+.page-header {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Headings / text colors for dark bg */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+p, li {
+  color: #d0d0d0 !important;
+}
