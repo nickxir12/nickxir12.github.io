@@ -1,5 +1,11 @@
 /* Hide the Cayman accessibility link */
-.skip-to-content,
+a.skip-to-content {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
 .site-footer {
   display: none !important;
 }
