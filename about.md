@@ -14,7 +14,7 @@ permalink: /about.html
 
 # 📘 About Me
 
-I'm **Nikolaos Xi̱ros**, currently finishing my undergraduate degree in Electrical and Computer Engineering at NTUA.
+I'm **Nikolas Xi̱ros**, currently finishing my undergraduate degree in Electrical and Computer Engineering at NTUA.
 
 I specialize in:
 - Multimodal learning
