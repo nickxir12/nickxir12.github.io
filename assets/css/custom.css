@@ -8,6 +8,21 @@ html, body {
   margin: 0;
 }
 
+/* Light body */
+html, body {
+  background: #ffffff;
+  color: #1b1f23;
+}
+
+
+html, body {
+  background: linear-gradient(to bottom, #0b1220 0%, #1a2233 40%, #2e3a4f 100%);
+  color: #cfd4dc;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  margin: 0;
+}
+
 h1, h2, h3 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
@@ -91,11 +106,7 @@ a.skip-to-content {
   margin-top: 4rem;
 }
 
-/* Light body */
-html, body {
-  background: #ffffff;
-  color: #1b1f23;
-}
+
 
 .main-content ul,
 .main-content ol {
@@ -215,12 +226,6 @@ h1, h2, h3, h4, h5, h6 { color: #111; }
   padding-left: 1.2rem;
 }
 
-
-/* Override Cayman theme background */
-html, body {
-  background: linear-gradient(135deg, #0b1220, #1b2735) !important;
-  color: #e6e6e6 !important;
-}
 
 /* Remove forced white from Cayman containers */
 .main-content,
