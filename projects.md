@@ -32,10 +32,10 @@ permalink: /projects.html
   <h3>Computer Vision and Language Alignment (Master’s Thesis)</h3>
   <p>Exploring cross-modal representations between text and images using CLIP and DINO.</p>
 
-  <h3>Multimodal Sentiment Analysis</h3>
-  <p>
-    <em>“All interactions matter: Modality-Preserving Deep Fusion for Multimodal Sentiment Analysis”</em>, 
-    submitted at ICASSP 2026.
-  </p>
+    <h3>Multimodal Sentiment Analysis</h3>
+    <p>
+    <em>All interactions matter: Modality-Preserving Deep Fusion for Multimodal Sentiment Analysis</em><br>
+    <span class="conference-note">submitted at ICASSP 2026.</span>
+    </p>
 
 </section>

@@ -27,6 +27,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff !important;
 }
 
+.hero-banner h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #cfd4dc; /* same as body text but bolder */
+  margin-top: 1.2rem;
+}
+
 p, li {
   color: #d0d0d0 !important;
 }
