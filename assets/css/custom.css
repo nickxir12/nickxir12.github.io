@@ -1,9 +1,9 @@
 /* Hide the Cayman accessibility link */
 
 html, body {
+  background: linear-gradient(135deg, #0b1220, #1b2735);
+  color: #e6e6e6;
   font-family: 'Inter', sans-serif;
-  background: #fafafa;
-  color: #222;
   line-height: 1.7;
 }
 
@@ -43,7 +43,21 @@ h1, h2, h3 {
 .btn-primary:hover {
   background: #ff922b;
 }
-
+.hero-banner {
+  text-align: center;
+  padding: 6rem 1rem;
+  background: linear-gradient(135deg, #06070a, #0b1220);
+  color: #fff;
+}
+.hero-banner h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.hero-banner p {
+  font-size: 1.2rem;
+  opacity: 0.85;
+}
 
 a.skip-to-content {
   display: none !important;
