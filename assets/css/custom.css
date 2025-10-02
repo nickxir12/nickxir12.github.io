@@ -220,3 +220,38 @@ h1, h2, h3, h4, h5, h6 {
 p, li {
   color: #d0d0d0 !important;
 }
+
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 3rem auto;
+  max-width: 1000px;
+  padding: 0 1rem;
+}
+.card {
+  background: #1e2633;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+.card h2 {
+  margin-bottom: 0.5rem;
+}
+.card a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #ffa94d;
+  text-decoration: none;
+  font-weight: 600;
+}
+.card a:hover {
+  color: #ffb84d;
+}
