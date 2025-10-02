@@ -242,36 +242,67 @@ p, li {
   color: #d0d0d0 !important;
 }
 
+.section-box {
+  background: #242b3b;              /* slightly lighter than page bg */
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 850px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
 
+.section-box h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  border-bottom: 2px solid #fca311; /* accent underline */
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.section-box h3 {
+  margin-top: 1.2rem;
+  color: #e6e6e6;
+}
+
+.section-box p,
+.section-box li {
+  color: #cfd4dc;
+  font-size: 0.95rem;
+}
+
+/* Cards inside Interests */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin: 3rem auto;
-  max-width: 1000px;
-  padding: 0 1rem;
+  gap: 1.5rem;
+  margin-top: 1rem;
 }
+
 .card {
-  background: #1e2633;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  background: #1e2536;
+  padding: 1.5rem;
+  border-radius: 10px;
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
+
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
 }
+
 .card h2 {
   margin-bottom: 0.5rem;
 }
+
 .card a {
   display: inline-block;
-  margin-top: 1rem;
-  color: #ffa94d;
-  text-decoration: none;
+  margin-top: 0.8rem;
+  color: #fca311;
   font-weight: 600;
+  text-decoration: none;
 }
 .card a:hover {
   color: #ffb84d;
