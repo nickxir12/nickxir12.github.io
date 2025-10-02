@@ -12,42 +12,6 @@ permalink: /interests.html
 
 When I’m not building AI systems, I enjoy:
 
-- Writing about AI, ethics, and more — see my blog posts soon.
-- Photography — a few collections below.
+- Writing about AI, ethics, and more — see my [blog posts here](https://medium.com/).
+- Photography — see more [here](https://www.flickr.com/people/203606562@N02/).
 
-## Photo Collections
-
-### China days
-<div class="gallery">
-  <figure class="photo-card">
-    <img src="{{ '/assets/img/China/NIK00604_01.jpg' | relative_url }}" alt="Street photo 1">
-  </figure>
-  <figure class="photo-card">
-    <img src="{{ '/assets/img/China/NIK01194.jpg' | relative_url }}" alt="Street photo 2">
-  </figure>
-  <figure class="photo-card">
-    <img src="{{ '/assets/img/China/NIK01488.jpg' | relative_url }}" alt="Street photo 3">
-  </figure>
-  <figure class="photo-card">
-    <img src="{{ '/assets/img/China/NIK01514.jpg' | relative_url }}" alt="Street photo 4">
-  </figure>
-  <figure class="photo-card">
-    <img src="{{ '/assets/img/China/NIK02201_02.jpg' | relative_url }}" alt="Street photo 5">
-  </figure>
-  <figure class="photo-card">
-    <img src="{{ '/assets/img/China/NIK02424.jpg' | relative_url }}" alt="Street photo 6">
-  </figure>
-</div>
-
-
-### Athens
-<div class="gallery">
-  <!-- <figure class="photo-card">
-    <img src="{{ '/assets/img/athens_01.jpg' | relative_url }}" alt="Athens photo 1">
-    <figcaption>Athens photo 1</figcaption>
-  </figure>
-  <figure class="photo-card">
-    <img src="{{ '/assets/img/athens_02.jpg' | relative_url }}" alt="Athens photo 2">
-    <figcaption>Athens photo 2</figcaption>
-  </figure> -->
-</div>
