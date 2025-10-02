@@ -22,7 +22,7 @@ permalink: /projects.html
 <section class="hero-banner">
   <div class="hero-inner">
     <div class="hero-content">
-      <h1>🚀 Projects</h1>
+      <h1>Projects</h1>
       <p class="subtext">Some of the things I’ve worked on recently.</p>
     </div>
   </div>
