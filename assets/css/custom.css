@@ -1,4 +1,50 @@
 /* Hide the Cayman accessibility link */
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  background: #fafafa;
+  color: #222;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+}
+.hero-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffa94d;
+}
+.hero-text {
+  max-width: 500px;
+}
+.btn-primary {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #ffa94d;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  background: #ff922b;
+}
+
+
 a.skip-to-content {
   display: none !important;
   visibility: hidden !important;
