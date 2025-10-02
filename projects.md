@@ -23,12 +23,9 @@ permalink: /projects.html
   <div class="hero-inner">
     <div class="hero-content">
       <h1>Projects</h1>
-      <p class="subtext">Some of the things I’ve worked on recently.</p>
     </div>
   </div>
-<!-- </section>
-
-<!-- <section class="section-box"> --> -->
+  
   <h3>Spirob Robot Modeling</h3>
   <p>Neural network–based dynamic modeling and control integration for a soft robot arm.</p>
 

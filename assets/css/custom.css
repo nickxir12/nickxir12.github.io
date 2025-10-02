@@ -124,6 +124,16 @@ nav strong {
   margin-bottom: 0.5rem;
   color: #ffffff;
 }
+
+.hero-banner h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  border-bottom: 2px solid #fca311;  /* orange underline */
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
 .hero-content p {
   font-size: 1.1rem;
   color: #cfd4dc;
