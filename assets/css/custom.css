@@ -1,26 +1,102 @@
-/* Hide the Cayman accessibility link */
+/* =============================
+   GLOBAL STYLES
+============================= */
 
+/* Background + text */
 html, body {
-  background: linear-gradient(to bottom, #0b1220 0%, #1a2233 40%, #d9dee8 100%);
-  color: #2a2a2a;
+  background: linear-gradient(to bottom, #0b1220 0%, #1a2233 40%, #2e3a4f 100%);
+  color: #cfd4dc;
   font-family: 'Inter', sans-serif;
   line-height: 1.7;
   margin: 0;
 }
 
-h1, h2, h3 {
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   letter-spacing: -0.5px;
+  color: #ffffff !important;
 }
-/* Hero Banner */
+
+p, li {
+  color: #d0d0d0 !important;
+}
+
+/* Links */
+a {
+  color: #fca311;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffb84d;
+}
+
+/* Hide GitHub Pages skip link */
+a.skip-to-content {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* =============================
+   HEADER
+============================= */
+
+.page-header {
+  background: linear-gradient(135deg, #06070a, #0b1220) !important;
+  color: #ffffff !important;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid #1b1f2a;
+}
+
+.project-name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #ffffff !important;
+}
+
+.project-tagline {
+  font-size: 1.1rem;
+  color: #d0d0d0 !important;
+  margin-top: 0;
+}
+
+/* =============================
+   NAVIGATION
+============================= */
+
+p[align="center"] {
+  margin: 0.5rem 0 1rem;
+}
+p[align="center"] a {
+  padding: 0 0.6rem;
+  font-weight: 600;
+  color: #1f6feb;
+}
+p[align="center"] a:hover {
+  color: #ffa94d;
+}
+
+nav strong {
+  color: #ffa94d;  /* highlight active link */
+}
+
+/* =============================
+   HERO SECTION
+============================= */
+
 .hero-banner {
-  background: #242b3b; 
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #202739, #2f3b52);
   border-radius: 12px;
   max-width: 950px;
   margin: 2rem auto;
-  padding: 3rem 2rem;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  color: #e6e6e6;
 }
 
 .hero-inner {
@@ -37,219 +113,74 @@ h1, h2, h3 {
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #fca311; /* accent orange */
+  border: 3px solid #fca311; /* accent */
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-/* Text */
+/* Hero text */
 .hero-content h1 {
   font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: #ffffff;
 }
-
 .hero-content p {
   font-size: 1.1rem;
   color: #cfd4dc;
   opacity: 0.9;
 }
 
-/* Links (navbar + content) */
-a {
-  color: #fca311;
-  text-decoration: none;
-}
-a:hover {
-  color: #ffb84d;
-}
-
-/* Section (like Welcome) */
-.section {
-  background: #242b3b;
-  padding: 2rem;
-  border-radius: 10px;
-  max-width: 800px;
-  margin: 2rem auto;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-  text-align: center;
-}
-
-a.skip-to-content {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  overflow: hidden !important;
-}
-
-.site-footer-custom {
-  text-align: center;
-  padding: 2rem;
-  background: #0d1117;
-  color: #aaa;
-  margin-top: 4rem;
-}
-
-
-
-.main-content ul,
-.main-content ol {
-  display: inline-block;   /* shrink-wraps list so it's centered */
-  text-align: left;        /* keeps bullets + text aligned properly */
-  margin: 1rem auto;       /* centers the list itself */
-  padding-left: 1.2rem;    /* small indent for bullets */
-}
-
-nav strong {
-  color: #ffa94d;  /* orange highlight */
-}
-
-
-.columns {
-  display: flex;
-  justify-content: center; /* center whole group */
-  gap: 2rem;               /* spacing between columns */
-  margin: 2rem auto;
-  max-width: 1000px;
-}
-.column {
-  flex: 1;
-  text-align: center;
-}
-
-/* Header section (dark) */
-.page-header {
-  background: linear-gradient(135deg, #06070a, #0b1220) !important;
-  color: #ffffff !important;
-  padding: 2.5rem 1.5rem;
-  text-align: center;       /* center title + tagline */
-  border-bottom: 1px solid #1b1f2a;
-}
-
-/* Title and tagline in header */
-.project-name {
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: #ffffff !important;
-  margin-bottom: 0.5rem;
-}
-.project-tagline {
-  font-size: 1.1rem;
-  color: #d0d0d0 !important;
-  margin-top: 0;
-}
-
-
-/* Navigation bar */
-p[align="center"] {
-  margin: 0.5rem 0 1rem;
-}
-p[align="center"] a {
-  padding: 0 0.6rem;
-  font-weight: 600;
-  color: #1f6feb;
-}
-p[align="center"] a:hover {
-  color: #ffa94d;
-}
+/* =============================
+   CONTENT AREAS
+============================= */
 
 .main-content {
   max-width: 860px;
-  margin: 0 auto;      /* center block */
+  margin: 0 auto;
   padding: 2rem;
-  text-align: center;  /* center text inside */
-}
-
-/* Optional: make lines subtle on dark mode
-@media (prefers-color-scheme: dark) {
-  .main-content {
-    border-left: 2px solid #333;
-    border-right: 2px solid #333;
-  }
-} */
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 { color: #111; }
-
-/* Gallery layout: 2 per row, centered */
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-  margin: 0.75rem auto 1.5rem;
-  max-width: 900px;
-}
-@media (max-width: 720px) {
-  .gallery { grid-template-columns: 1fr; }
-}
-
-.photo-card {
-  background: rgba(0,0,0,0.02);
-  border: 1px solid rgba(0,0,0,0.06);
-  border-radius: 10px;
-  overflow: hidden;
-}
-.photo-card img {
-  width: 100%;
-  height: 280px;            /* uniform height */
-  object-fit: cover;        /* crop to fill */
-  display: block;
-}
-.photo-card figcaption {
-  padding: 8px 10px;
-  font-size: 0.9rem;
-  opacity: 0.9;
   text-align: center;
 }
 
-/* Center lists but keep bullets aligned */
-.main-content ul, .main-content ol {
+.main-content ul,
+.main-content ol {
   display: inline-block;
   text-align: left;
   margin: 1rem auto;
   padding-left: 1.2rem;
 }
 
-
-/* Remove forced white from Cayman containers */
-.main-content,
-.page-header {
-  background: transparent !important;
-  box-shadow: none !important;
-}
-
-/* Headings / text colors for dark bg */
-h1, h2, h3, h4, h5, h6 {
-  color: #ffffff !important;
-}
-p, li {
-  color: #d0d0d0 !important;
-}
+/* Section Boxes */
 .section-box {
-  background: #f8f9fb;   /* light background card */
-  color: #222;
+  background: #242b3b;
   padding: 2rem;
   border-radius: 12px;
   max-width: 850px;
   margin: 2rem auto;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }
 
 .section-box h1 {
-  color: #222;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
   border-bottom: 2px solid #fca311;
+  display: inline-block;
+  padding-bottom: 0.3rem;
 }
-.section-box p, 
+.section-box h3 {
+  margin-top: 1.2rem;
+  color: #e6e6e6;
+}
+.section-box p,
 .section-box li {
-  color: #444;
+  color: #cfd4dc;
+  font-size: 0.95rem;
 }
 
-.section-box {
-  padding: 1.5rem;       /* less padding */
-  margin: 1.5rem auto;   /* closer sections */
-}
+/* =============================
+   INTEREST CARDS
+============================= */
 
-/* Cards inside Interests */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -274,7 +205,6 @@ p, li {
 .card h2 {
   margin-bottom: 0.5rem;
 }
-
 .card a {
   display: inline-block;
   margin-top: 0.8rem;
@@ -284,4 +214,16 @@ p, li {
 }
 .card a:hover {
   color: #ffb84d;
+}
+
+/* =============================
+   FOOTER
+============================= */
+
+.site-footer-custom {
+  text-align: center;
+  padding: 2rem;
+  background: #0d1117;
+  color: #aaa;
+  margin-top: 4rem;
 }
