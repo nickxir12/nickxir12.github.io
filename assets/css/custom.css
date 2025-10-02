@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   letter-spacing: -0.5px;
-  color: #ffffff !important;
+  color: #ffffff; /* no !important */
 }
 
 .conference-note {
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-banner h3 {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #cfd4dc; /* same as body text but bolder */
+  color: #cfd4dc !important;
   margin-top: 1.2rem;
 }
 
