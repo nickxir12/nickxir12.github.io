@@ -26,9 +26,6 @@ permalink: /projects.html
     </div>
   </div>
 
-  <h3>Spirob Robot Modeling</h3>
-  <p>Neural network–based dynamic modeling and control integration for a soft robot arm.</p>
-
   <h3>Computer Vision and Language Alignment (Master’s Thesis)</h3>
   <p>Exploring cross-modal representations between text and images using CLIP and DINO.</p>
 
@@ -37,5 +34,9 @@ permalink: /projects.html
     <em>All interactions matter: Modality-Preserving Deep Fusion for Multimodal Sentiment Analysis</em><br>
     <span class="conference-note">submitted at ICASSP 2026.</span>
     </p>
+
+
+  <h3>SpiRob Robot Modeling</h3>
+  <p>Neural network–based dynamic modeling and control integration for a soft robot.</p>
 
 </section>
