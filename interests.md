@@ -13,7 +13,7 @@ permalink: /interests.html
   <h1>Interests</h1>
   <p>
   When I’m not building AI systems, I enjoy:
-  <p>
+  </p>
   <div class="card-grid">
     <div class="card">
       <h2>📸 Photography</h2>
