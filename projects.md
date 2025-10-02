@@ -22,10 +22,10 @@ permalink: /projects.html
 <section class="hero-banner">
   <div class="hero-inner">
     <div class="hero-content">
-      <h1>Projects</h1>
+      <h1> Projects</h1>
     </div>
   </div>
-  
+
   <h3>Spirob Robot Modeling</h3>
   <p>Neural network–based dynamic modeling and control integration for a soft robot arm.</p>
 
