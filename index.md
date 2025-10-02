@@ -15,16 +15,22 @@ title: "Home"
     <img src="/assets/css/img/mine/My_photo.jpg" alt="Nikolas Xi̱ros" class="hero-pic">
     <div class="hero-content">
       <h1>Hi, I’m Nikolas 👋</h1>
-      <p>AI & Multimodal Learning Researcher @ NTUA</p>
+      <p class="tagline">AI & Multimodal Learning Researcher @ NTUA</p>
+      <p class="subtext">
+        I'm an undergraduate student at the National Technical University of Athens.  
+        I'm passionate about AI, multimodal learning, and exploring how intelligent systems understand the world.  
+        <br><br>
+        Use the navigation bar above to explore my projects and learn more about me.
+      </p>
     </div>
   </div>
 </section>
 
-#  Welcome
+<!-- #  Welcome
 
 I'm **Nikolas Xi̱ros**, an undergraduate student at the National Technical University of Athens.  
 I'm passionate about AI, multimodal learning, and exploring how intelligent systems understand the world.
 
-Use the navigation bar above to explore my projects and learn more about me.
+Use the navigation bar above to explore my projects and learn more about me. -->
 
 
