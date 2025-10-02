@@ -4,6 +4,7 @@ title: "Home"
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=5' | relative_url }}">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
 {% include nav.html %}
@@ -22,6 +23,10 @@ title: "Home"
         <br><br>
         Use the navigation bar above to explore my projects and learn more about me.
       </p>
+      <div class="social-links">
+        <a href="https://github.com/nickxir12" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="www.linkedin.com/in/nikolaos-xiros-972b531a7" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
     </div>
   </div>
 </section>

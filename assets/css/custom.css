@@ -227,3 +227,18 @@ nav strong {
   color: #aaa;
   margin-top: 4rem;
 }
+
+.social-links {
+  margin-top: 1rem;
+}
+
+.social-links a {
+  font-size: 1.6rem;
+  color: #fca311;  /* same orange accent */
+  margin-right: 1rem;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #ffb84d;  /* hover highlight */
+}
