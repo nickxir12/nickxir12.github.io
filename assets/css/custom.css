@@ -229,16 +229,17 @@ nav strong {
 }
 
 .social-links {
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 .social-links a {
-  font-size: 1.6rem;
-  color: #fca311;  /* same orange accent */
-  margin-right: 1rem;
-  transition: color 0.2s ease;
+  font-size: 2.2rem;   /* bigger size */
+  color: #fca311;      /* accent orange */
+  margin-right: 1.2rem;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .social-links a:hover {
-  color: #ffb84d;  /* hover highlight */
+  color: #ffb84d;
+  transform: scale(1.15); /* slight zoom on hover */
 }
