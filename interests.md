@@ -12,7 +12,7 @@ permalink: /interests.html
 <section class="hero-banner">
   <div class="hero-inner">
     <div class="hero-content">
-      <h1>🌟 Interests</h1>
+      <h1> Interests</h1>
       <p>When I’m not building AI systems, I enjoy:</p>
       <div class="card-grid">
         <div class="card">
