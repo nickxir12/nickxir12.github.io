@@ -25,7 +25,7 @@ title: "Home"
       </p>
       <div class="social-links">
         <a href="https://github.com/nickxir12" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://llinkedin.com/in/nikolaos-xiros-972b531a7" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="www.linkedin.com/in/nikolaos-xiros-972b531a7" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
     </div>
   </div>

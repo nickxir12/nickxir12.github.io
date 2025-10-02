@@ -167,14 +167,30 @@ nav strong {
   display: inline-block;
   padding-bottom: 0.3rem;
 }
+
+/* Subheadings (h3) */
 .section-box h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
   margin-top: 1.2rem;
   color: #e6e6e6;
 }
+
+/* Tagline and normal text */
+.tagline,
 .section-box p,
 .section-box li {
+  font-size: 1.05rem;
   color: #cfd4dc;
+  line-height: 1.6;
+}
+
+/* Small subtext (hero bio, etc.) */
+.subtext {
   font-size: 0.95rem;
+  color: #aab2c5;
+  line-height: 1.6;
+  max-width: 600px;
 }
 
 /* =============================
