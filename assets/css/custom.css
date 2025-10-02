@@ -67,8 +67,12 @@ a.skip-to-content {
   overflow: hidden !important;
 }
 
-.site-footer {
-  display: none !important;
+.site-footer-custom {
+  text-align: center;
+  padding: 2rem;
+  background: #0d1117;
+  color: #aaa;
+  margin-top: 4rem;
 }
 
 /* Light body */
