@@ -1,6 +1,6 @@
 ---
-title: "  Interests"
-permalink: /interests.html
+title: "  Personal"
+permalink: /Personal.html
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=8' | relative_url }}">

@@ -1,6 +1,6 @@
 <header class="top-nav">
   <nav class="nav-links">
-    {% assign nav_links = "/index.html:Home, /projects.html:Projects, /interests.html:Interests" | split: "," %}
+    {% assign nav_links = "/index.html:Home, /projects.html:Projects, /Personal.html:Personal" | split: "," %}
     {% for item in nav_links %}
       {% assign parts = item | strip | split: ":" %}
       {% assign link = parts[0] %}
