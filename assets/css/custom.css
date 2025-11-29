@@ -17,11 +17,11 @@ html, body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   line-height: 1.7;
-  color: #1f2937; /* dark text for light background */
+  color: #e0e0e0; /* light text for dark background */
 
-  /* darker layered background with scroll gradient effect */
-  background: linear-gradient(180deg, #f0f4f8 0%, #d9e9f7 50%, #c7dff0 100%),
-              radial-gradient(circle at 8% 8%, var(--accent-blue-soft) 0, transparent 25%);
+  /* dark navy gradient background */
+  background: linear-gradient(180deg, #0f1419 0%, #1a2847 50%, #16213e 100%),
+              radial-gradient(circle at 8% 8%, rgba(59,130,246,0.1) 0, transparent 25%);
   background-attachment: fixed;
 }
 
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   letter-spacing: -0.5px;
-  color: #0b1220; /* dark headings */
+  color: #ffffff; /* white headings for dark background */
 }
 
 h1 {
@@ -61,7 +61,7 @@ h3 {
 }
 
 p, li {
-  color: #334155 !important; /* dark readable body text */
+  color: #d1d5db !important; /* light text for dark background */
   font-size: 1.05rem;
   line-height: 1.7;
 }
@@ -179,13 +179,13 @@ nav strong {
 
 .hero-banner {
   padding: 4rem 2.5rem;
-  background: linear-gradient(135deg, #ffffff 0%, var(--accent-blue-very-light) 100%); /* subtle blue tint */
+  background: linear-gradient(135deg, #1a2847 0%, #16213e 100%); /* dark blue gradient */
   border-radius: 16px;
   max-width: 1100px;
   margin: 2rem auto;
-  box-shadow: 0 10px 30px rgba(59,130,246,0.06);
-  color: #0f1724;
-  border: 2px solid #dbeafe;
+  box-shadow: 0 10px 30px rgba(59,130,246,0.15);
+  color: #ffffff;
+  border: 2px solid #3b82f6;
   animation: slideInUp 0.6s ease-out;
 }
 
@@ -327,13 +327,13 @@ nav strong {
 
 /* Section Boxes */
 .section-box {
-  background: linear-gradient(135deg, #ffffff 0%, var(--accent-blue-light) 100%); /* subtle blue tint */
+  background: linear-gradient(135deg, #1a2847 0%, #16213e 100%); /* dark blue gradient */
   padding: 3rem 2.5rem;
   border-radius: 16px;
   max-width: 900px;
   margin: 2.5rem auto;
-  box-shadow: 0 10px 30px rgba(59,130,246,0.05);
-  border: 2px solid #dbeafe;
+  box-shadow: 0 10px 30px rgba(59,130,246,0.2);
+  border: 2px solid #3b82f6;
   animation: slideInUp 0.6s ease-out 0.1s both;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
@@ -400,11 +400,11 @@ nav strong {
 .news-item {
   width: 100%;
   flex: none;
-  background: linear-gradient(135deg, #ffffff 0%, #f8fcff 100%);
-  border: 1px solid #dbeafe;
+  background: linear-gradient(135deg, #1a2847 0%, #16213e 100%);
+  border: 1px solid #3b82f6;
   border-radius: 10px;
   padding: 0.85rem 1rem;
-  box-shadow: 0 6px 18px rgba(59,130,246,0.03);
+  box-shadow: 0 6px 18px rgba(59,130,246,0.15);
 }
 
 
@@ -443,13 +443,13 @@ nav strong {
 }
 
 .card {
-  background: linear-gradient(135deg, #ffffff 0%, #f8fcff 100%);
+  background: linear-gradient(135deg, #1a2847 0%, #16213e 100%);
   padding: 2rem;
   border-radius: 14px;
   text-align: center;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-  box-shadow: 0 8px 20px rgba(59,130,246,0.04);
-  border: 1px solid #e6eefc;
+  box-shadow: 0 8px 20px rgba(59,130,246,0.15);
+  border: 1px solid #3b82f6;
 }
 
 .card:hover {
@@ -516,8 +516,8 @@ nav strong {
 .site-footer-custom {
   text-align: center;
   padding: 3rem 2rem;
-  background: linear-gradient(135deg, #f8fafc 0%, #f0f8ff 100%);
-  color: #475569;
+  background: linear-gradient(135deg, #0f1419 0%, #1a2847 100%);
+  color: #d1d5db;
   margin-top: 5rem;
   border-top: 3px solid #3b82f6;
 }
