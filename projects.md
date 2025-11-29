@@ -22,20 +22,28 @@ permalink: /projects.html
 <section class="hero-banner">
   <div class="hero-inner">
     <div class="hero-content">
-      <h1> Projects</h1>
+      <h1>Projects</h1>
     </div>
   </div>
+</section>
 
-  <h3>Computer Vision and Language Alignment (Master’s Thesis)</h3>
-  <p>Exploring cross-modal representations between text and images using CLIP and DINO.</p>
+<section class="section-box">
+  <div class="project-list">
+    <div class="project-card card">
+      <h3>Vision and Language Representational Alignment</h3>
+      <p><em>Master's Thesis</em></p>
+      <p>Exploring cross-modal representations between text and images using CLIP and DINOv2 models.</p>
+    </div>
 
-    <h3>Multimodal Sentiment Analysis</h3>
-    <p>
-    <em>All interactions matter: Modality-Preserving Deep Fusion for Multimodal Sentiment Analysis</em><br>
-    <span class="conference-note">submitted at ICASSP 2026.</span>
-    </p>
+    <div class="project-card card">
+      <h3>Multimodal Sentiment Analysis</h3>
+      <p><em>All interactions matter: Modality-Preserving Deep Fusion for Multimodal Sentiment Analysis</em></p>
+      <p class="conference-note">Submitted at ICASSP 2026.</p>
+    </div>
 
-  <h3>SpiRob Robot Modeling</h3>
-  <p>Neural network–based dynamic modeling and control integration for a soft robot.</p>
-
+    <div class="project-card card">
+      <h3>SpiRob Robot Modeling</h3>
+      <p>Project developed during summer internship at USTC, China. I developed a neural network–based dynamic modeling and control integration for a novel soft robot.</p>
+    </div>
+  </div>
 </section>
