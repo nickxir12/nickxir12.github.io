@@ -146,14 +146,14 @@ nav strong {
 /* Top navigation bar (centered nav links, name removed) */
 .top-nav {
   width: 100%;
-  background: linear-gradient(180deg, #ffffff 0%, var(--accent-blue-very-light) 100%);
+  background: linear-gradient(180deg, #e0f2fe 0%, #bfdbfe 100%);
   display: flex;
   justify-content: center;
   padding: 1rem 0;
   margin: 1rem 0;
-  box-shadow: 0 8px 22px rgba(15,23,36,0.05);
-  border-top: 1px solid #eef6ff;
-  border-bottom: 1px solid #eef6ff;
+  box-shadow: 0 8px 22px rgba(15,23,36,0.08);
+  border-top: 2px solid #3b82f6;
+  border-bottom: 2px solid #3b82f6;
 }
 .nav-links {
   margin: 0;
