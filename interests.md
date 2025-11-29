@@ -9,14 +9,6 @@ permalink: /interests.html
 ---
 
 
-<!-- <section class="hero-banner">
-  <div class="hero-inner">
-    <div class="hero-content">
-      <h1>Personal Interests</h1>
-      <!-- <p>When I'm not doing AI I like doing:</p> -->
-    </div>
-  </div>
-</section> -->
 
 <!-- Writing block (separate .section-box, stacked like projects) -->
 <section class="section-box project-card">
