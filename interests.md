@@ -1,5 +1,5 @@
 ---
-title: "OOD Interests"
+title: "  Interests"
 permalink: /interests.html
 ---
 
