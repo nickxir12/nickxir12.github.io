@@ -19,13 +19,13 @@ permalink: /projects.html
   <p>Exploring cross-modal representations between text and images using CLIP and DINO.</p>
 </section> -->
 
-<section class="hero-banner">
+<!-- <section class="hero-banner">
   <div class="hero-inner">
     <div class="hero-content">
       <h1>Projects</h1>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="section-box">
   <div class="project-list">
