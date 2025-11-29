@@ -19,8 +19,8 @@ html, body {
   line-height: 1.7;
   color: #1f2937; /* dark text for light background */
 
-  /* subtle layered background: very light gradient plus faint bluish radial accent */
-  background: linear-gradient(180deg, #ffffff 0%, var(--accent-blue-very-light) 100%),
+  /* darker layered background with scroll gradient effect */
+  background: linear-gradient(180deg, #f0f4f8 0%, #d9e9f7 50%, #c7dff0 100%),
               radial-gradient(circle at 8% 8%, var(--accent-blue-soft) 0, transparent 25%);
   background-attachment: fixed;
 }
