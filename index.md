@@ -29,7 +29,7 @@ title: "Home"
     </aside>
 
     <div class="hero-content">
-      <h1>Hi, I’m Nikolas 👋</h1>
+      <h1>Hi, I’m Nikolas </h1>
       <p class="tagline">AI Researcher & Multimodal Learning</p>
       <p class="subtext">
         I'm a recent graduate from ECE, National Technical University of Athens. I work on multimodal learning, NLP and interpretability, with interests in vision-language models and model interpretability.
