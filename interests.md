@@ -22,10 +22,10 @@ permalink: /Personal.html
 <section class="section-box project-card">
   <div class="main-content">
     <h2>Photography</h2>
-    <p class="subtext">I occasionally try to  capture moments. Below is a small selection.</p>
+    <p class="subtext">I occasionally try to  capture moments.</p>
     <a class="subtext" href="https://www.flickr.com/people/203606562@N02/">See more of my photos here →</a>
   </div>
-      <div class="photo-grid" style="max-width:900px;margin:1rem auto 0;">
+      <!-- <div class="photo-grid" style="max-width:900px;margin:1rem auto 0;">
         {% assign gallery = site.static_files | where_exp:"file","file.path contains 'assets/css/img/mine/photos/'" %}
         {% if gallery and gallery.size > 0 %}
           {% for file in gallery %}
@@ -43,5 +43,5 @@ permalink: /Personal.html
         {% else %}
           <p class="subtext">No photos found in <code>assets/img/photos/</code> or <code>assets/css/img/mine/photos/</code>. Make sure images are committed.</p>
         {% endif %}
-      </div>
+      </div> -->
 </section>
