@@ -513,6 +513,27 @@ nav strong {
   .photo-item img { height: 140px; }
 }
 
+/* Header section above the navigation bar */
+.site-header {
+  padding: 1rem 0; /* Reduce padding */
+  background-color: #e0f2fe; /* Light blue background */
+  color: #0b1220; /* Dark text */
+  text-align: center;
+}
+
+.site-header h1 {
+  font-size: 2rem; /* Smaller font size */
+  font-weight: 700;
+  margin: 0; /* Remove margin */
+}
+
+/* For smaller screen devices */
+@media (max-width: 768px) {
+  .site-header h1 {
+    font-size: 1.6rem; /* Smaller font size on mobile */
+  }
+}
+
 .site-footer-custom {
   text-align: center;
   padding: 3rem 2rem;
