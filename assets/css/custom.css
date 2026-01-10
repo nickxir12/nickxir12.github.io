@@ -405,6 +405,14 @@ nav strong {
   border-radius: 10px;
   padding: 0.85rem 1rem;
   box-shadow: 0 6px 18px rgba(59,130,246,0.03);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  cursor: pointer;
+}
+
+.news-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(59,130,246,0.12);
+  border-color: #93c5fd;
 }
 
 
