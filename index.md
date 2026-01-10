@@ -32,7 +32,7 @@ title: "Home"
       <h1>Hi, I’m Nikolas </h1>
       <p class="tagline">AI & Multimodal Learning Researcher</p>
       <p class="subtext">
-        I'm a recent graduate from ECE, National Technical University of Athens. I work on multimodal learning, NLP and interpretability, with interests in vision-language models and model interpretability.
+        I'm a recent graduate from ECE, National Technical University of Athens. I work on multimodal learning, NLP and interpretability, with interests in exploring models' behavior and their social impact.
       </p>
 
       <h3 class="news-heading">News</h3>

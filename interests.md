@@ -14,7 +14,7 @@ permalink: /Personal.html
 <section class="section-box project-card">
   <div class="main-content">
     <h2>Writing</h2>
-    <p class="subtext">I write short blogs and notes about books,AI and more. <a href="https://medium.com/">Read blog →</a></p>
+    <p class="subtext">I write short blogs and notes about AI and more. <a href="https://medium.com/">Read blog →</a></p>
   </div>
 </section>
 
@@ -22,8 +22,8 @@ permalink: /Personal.html
 <section class="section-box project-card">
   <div class="main-content">
     <h2>Photography</h2>
-    <p class="subtext">I occasionally try to  capture moments.</p>
-    <a class="subtext" href="https://www.flickr.com/people/203606562@N02/">See more of my photos here →</a>
+    <p class="subtext">I try to capture moments with my camera.</p>
+    <a class="subtext" href="https://www.flickr.com/people/203606562@N02/">See some of my photos here →</a>
   </div>
       <!-- <div class="photo-grid" style="max-width:900px;margin:1rem auto 0;">
         {% assign gallery = site.static_files | where_exp:"file","file.path contains 'assets/css/img/mine/photos/'" %}
