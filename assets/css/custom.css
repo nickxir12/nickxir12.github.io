@@ -103,24 +103,7 @@ a.skip-to-content {
 ============================= */
 
 .page-header {
-  background: linear-gradient(135deg, #1e293b 0%, #334155 100%) !important;
-  color: #f1f5f9 !important;
-  padding: 1.2rem 1.5rem;
-  text-align: center;
-  border-bottom: 3px solid #475569;
-  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.3);
-}
-.project-name {
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 0.3rem;
-  color: #f1f5f9 !important;
-}
-
-.project-tagline {
-  font-size: 1rem;
-  color: #cbd5e1 !important;
-  margin-top: 0;
+  display: none !important;
 }
 
 /* =============================
