@@ -15,7 +15,7 @@
 html, body {
   min-height: 100%;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'STIX Two Text', serif;
   line-height: 1.7;
   color: #1f2937; /* dark text for light background */
 
@@ -27,7 +27,7 @@ html, body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'STIX Two Text', serif;
   font-weight: 700;
   letter-spacing: -0.5px;
   color: #0b1220; /* dark headings */
