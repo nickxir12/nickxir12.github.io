@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=5' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=6' | relative_url }}">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -29,7 +29,7 @@ title: "Home"
     </aside>
 
     <div class="hero-content">
-      <h1>Hi, I’m Nikolas </h1>
+      <h1>Hi, I'm Nikolas </h1>
       <p class="tagline">AI & Multimodal Learning Researcher</p>
       <p class="subtext">
         I'm a recent graduate from ECE, National Technical University of Athens. I work on multimodal learning, NLP and interpretability, with interests in exploring models' behavior and their social impact.
@@ -49,5 +49,4 @@ title: "Home"
     </div>
   </div>
 </section>
-
 

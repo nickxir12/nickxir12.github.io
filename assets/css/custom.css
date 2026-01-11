@@ -15,7 +15,7 @@
 html, body {
   min-height: 100%;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'STIX Two Text', serif;
   line-height: 1.7;
   color: #1f2937; /* dark text for light background */
 
@@ -27,7 +27,7 @@ html, body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'STIX Two Text', serif;
   font-weight: 700;
   letter-spacing: -0.5px;
   color: #0b1220; /* dark headings */
@@ -103,24 +103,7 @@ a.skip-to-content {
 ============================= */
 
 .page-header {
-  background: linear-gradient(135deg, #1e293b 0%, #334155 100%) !important;
-  color: #f1f5f9 !important;
-  padding: 1.2rem 1.5rem;
-  text-align: center;
-  border-bottom: 3px solid #475569;
-  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.3);
-}
-.project-name {
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 0.3rem;
-  color: #f1f5f9 !important;
-}
-
-.project-tagline {
-  font-size: 1rem;
-  color: #cbd5e1 !important;
-  margin-top: 0;
+  display: none !important;
 }
 
 /* =============================
@@ -146,14 +129,13 @@ nav strong {
 /* Top navigation bar (centered nav links, name removed) */
 .top-nav {
   width: 100%;
-  background: linear-gradient(180deg, #334155 0%, #475569 100%);
+  background: #e0f2fe;
   display: flex;
   justify-content: center;
   padding: 1rem 0;
   margin: 1rem 0;
-  box-shadow: 0 8px 22px rgba(15,23,36,0.25);
-  border-top: 2px solid #64748b;
-  border-bottom: 2px solid #64748b;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 20px;
 }
 .nav-links {
   margin: 0;
@@ -163,15 +145,19 @@ nav strong {
   width: auto;
 }
 .nav-links a {
-  color: #e2e8f0;
+  color: #1f2937;
   margin: 0 0.9rem;
   font-weight: 600;
   text-decoration: none;
   font-size: 1.08rem;
   padding: 0.25rem 0.5rem;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover {
+  color: var(--accent-orange);
 }
 .nav-links .active { color: var(--accent-orange); }
-.nav-links .sep { color: #64748b; margin: 0 0.45rem; }
+.nav-links .sep { color: #94a3b8; margin: 0 0.45rem; }
 
 /* =============================
    HERO SECTION
@@ -339,9 +325,10 @@ nav strong {
 }
 
 .section-box:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 15px 40px rgba(59,130,246,0.12);
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(59,130,246,0.15);
   border-color: #93c5fd;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
 }
 .section-box h1 {
   font-size: 1.8rem;
@@ -375,6 +362,15 @@ nav strong {
   color: #64748b;
   line-height: 1.7;
   max-width: 700px;
+}
+
+.photo-link {
+  color: var(--accent-orange) !important;
+  font-weight: 600;
+}
+
+.photo-link:hover {
+  color: #ffb84d !important;
 }
 
 /* =============================
@@ -487,6 +483,15 @@ nav strong {
   text-align: left; /* left-align project content */
   padding: 1.5rem 1.75rem;
   border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(59,130,246,0.15);
+  border-color: #93c5fd;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
 }
 
 @media (min-width: 1200px) {
