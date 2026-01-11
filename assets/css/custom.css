@@ -15,6 +15,7 @@
 html, body {
   min-height: 100%;
   margin: 0;
+  padding: 0;
   font-family: 'STIX Two Text', serif;
   line-height: 1.7;
   color: #1f2937; /* dark text for light background */
@@ -134,11 +135,12 @@ nav strong {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+  margin-top: 0;
+  margin-bottom: 0;
   background: #e0f2fe;
   display: flex;
   justify-content: center;
   padding: 1rem 0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   border-radius: 0;
 }
 .nav-links {
@@ -168,14 +170,14 @@ nav strong {
 ============================= */
 
 .hero-banner {
-  padding: 3rem 2.5rem; /* reduced from 4rem to move content up */
-  background: linear-gradient(135deg, #ffffff 0%, #f0f8ff 100%); /* light blue tint */
-  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  background: transparent;
+  border-radius: 0;
   max-width: 1100px;
-  margin: 1.5rem auto; /* reduced from 2rem to move banner up */
-  box-shadow: 0 10px 30px rgba(59,130,246,0.06);
+  margin: 2rem auto;
+  box-shadow: none;
   color: #0f1724;
-  border: 2px solid #bfdbfe;
+  border: none;
   animation: slideInUp 0.6s ease-out;
 }
 
@@ -301,7 +303,7 @@ nav strong {
 ============================= */
 
 .main-content {
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 1.5rem 1.5rem;
   text-align: center;
@@ -317,22 +319,22 @@ nav strong {
 
 /* Section Boxes */
 .section-box {
-  background: linear-gradient(135deg, #ffffff 0%, #f0f8ff 100%); /* light blue tint */
-  padding: 2rem 1.75rem; /* reduced from 3rem 2.5rem for smaller cards */
-  border-radius: 16px;
-  max-width: 650px; /* reduced from 900px */
-  margin: 2rem auto; /* reduced from 2.5rem */
-  box-shadow: 0 10px 30px rgba(59,130,246,0.05);
-  border: 2px solid #bfdbfe;
+  background: transparent;
+  padding: 1rem 1.5rem;
+  border-radius: 0;
+  max-width: 900px;
+  margin: 2rem auto;
+  box-shadow: none;
+  border: none;
   animation: slideInUp 0.6s ease-out 0.1s both;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  transition: none;
 }
 
 .section-box:hover {
-  transform: translateY(-4px) scale(1.02);
-  box-shadow: 0 15px 40px rgba(59,130,246,0.15);
-  border-color: #93c5fd;
-  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  transform: none;
+  box-shadow: none;
+  border-color: transparent;
+  background: transparent;
 }
 .section-box h1 {
   font-size: 1.8rem;
@@ -445,6 +447,9 @@ nav strong {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-top: 1.5rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 768px) {
@@ -453,7 +458,7 @@ nav strong {
 
 .card {
   background: linear-gradient(135deg, #ffffff 0%, #f8fcff 100%);
-  padding: 2rem;
+  padding: 1.25rem 2rem;
   border-radius: 14px;
   text-align: center;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -462,7 +467,7 @@ nav strong {
 }
 
 .card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-4px);
   box-shadow: 0 16px 40px rgba(59,130,246,0.12);
   border-color: #93c5fd;
 }
@@ -482,10 +487,10 @@ nav strong {
 }
 
 .project-card {
-  width: 80%;
-  max-width: 650px; /* reduced from 820px */
-  text-align: left; /* left-align project content */
-  padding: 1.5rem 1.5rem; /* reduced from 1.5rem 1.75rem */
+  width: 90%;
+  max-width: 900px;
+  text-align: left;
+  padding: 1.25rem 2rem;
   border-radius: 12px;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background 0.3s ease;
@@ -500,7 +505,7 @@ nav strong {
 
 @media (min-width: 1200px) {
   .project-list { gap: 1.5rem; }
-  .project-card { padding: 1.5rem 1.75rem; } /* reduced from 1.75rem 2rem */
+  .project-card { padding: 1.25rem 2rem; }
 }
 
 /* =============================
