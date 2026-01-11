@@ -8,6 +8,7 @@ permalink: /projects.html
 
 {% include nav.html %}
 
+---
 
 <!-- ---
 <section class="section-box">
