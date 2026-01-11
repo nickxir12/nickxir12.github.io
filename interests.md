@@ -14,7 +14,8 @@ permalink: /Personal.html
 <section class="section-box project-card">
   <div class="main-content">
     <h2>Writing</h2>
-    <p class="subtext">I write short blogs and notes about AI and more. <a href="https://medium.com/">Read blog →</a></p>
+    <p class="subtext">I write short blogs and notes about AI and more.</p>
+    <a class="subtext" href="https://medium.com/">Read blog →</a>
   </div>
 </section>
 
