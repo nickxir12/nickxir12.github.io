@@ -15,7 +15,7 @@ permalink: /Personal.html
   <div class="main-content">
     <h2>Writing</h2>
     <p class="subtext">I write short blogs and notes about AI and more.</p>
-    <a class="subtext" href="https://medium.com/">Read blog →</a>
+    <a class="subtext photo-link" href="https://medium.com/">Read blog →</a>
   </div>
 </section>
 
