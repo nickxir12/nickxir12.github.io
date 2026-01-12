@@ -17,12 +17,12 @@ permalink: /Personal.html
       <a class="subtext photo-link" href="https://medium.com/">Read blog</a>
     </div>
 
-  <div class="project-list">
-    <!-- Writing block -->
+    <!-- Photography block -->
     <div class="project-card card">
       <h3>Photography</h3>
       <p class="subtext">I try to capture moments with my camera.</p>
       <a class="subtext photo-link" href="https://www.flickr.com/photos/203606562@N02/">See some of my photos</a>
     </div>
+  </div>
 </section>
 
