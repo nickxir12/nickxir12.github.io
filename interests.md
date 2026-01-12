@@ -17,7 +17,6 @@ permalink: /Personal.html
       <a class="subtext photo-link" href="https://medium.com/">Read blog</a>
     </div>
 
-<<<<<<< HEAD
 
 <!-- Writing block (separate .section-box, stacked like projects) -->
 <section class="section-box project-card">
@@ -35,13 +34,6 @@ permalink: /Personal.html
     <p class="subtext">I try to capture moments with my camera.</p>
     <a class="subtext photo-link" href="https://www.flickr.com/photos/203606562@N02/">See some of my photos</a>
   </div>
-=======
-    <!-- Photos block -->
-    <div class="project-card card">
-      <h3>Photography</h3>
-      <p class="subtext">I try to capture moments with my camera.</p>
-      <a class="subtext photo-link" href="https://www.flickr.com/people/203606562@N02/">See some of my photos</a>
->>>>>>> 205c31d8031def47fe6d3b6a30ca13d0ab13491f
       <!-- <div class="photo-grid" style="max-width:900px;margin:1rem auto 0;">
         {% assign gallery = site.static_files | where_exp:"file","file.path contains 'assets/css/img/mine/photos/'" %}
         {% if gallery and gallery.size > 0 %}
