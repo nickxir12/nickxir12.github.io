@@ -197,30 +197,31 @@ nav strong {
 
 /* Profile side column */
 .profile-side {
-  width: 300px; /* increased from 260px to accommodate larger picture */
-  flex: 0 0 300px;
+  width: 600px; /* increased from 300px to double size */
+  flex: 0 0 600px;
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* left-align contents */
   text-align: left;
-  padding-left: 0.5rem;
+  padding-left: 0; /* moved more to the left */
+  margin-left: -2rem; /* shift further left */
 }
 
 .profile-side .hero-pic {
-  width: 220px; /* increased from 180px */
-  height: 220px; /* increased from 180px */
+  width: 440px; /* doubled from 220px */
+  height: 440px; /* doubled from 220px */
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #fff;
-  box-shadow: 0 8px 18px rgba(15,23,36,0.06);
+  border: 8px solid #fff; /* doubled border width */
+  box-shadow: 0 16px 36px rgba(15,23,36,0.06); /* doubled shadow */
 }
 
-.profile-info { margin-top: 0.75rem; width: 100%; }
-.profile-name { font-size: 1.05rem; font-weight: 700; color: #0b1220; margin: 0 0 0.25rem 0; }
-.profile-role { color: #64748b; margin: 0 0 0.5rem 0; }
-.profile-location { color: #64748b; font-size: 0.95rem; margin-bottom: 0.6rem; }
-.profile-links a { display: inline-flex; align-items: center; color: #3b82f6; margin: 0.5rem 0.75rem 0.5rem 0; text-decoration: none; font-weight:600; font-size: 0; }
-.profile-links a i { margin-right: 0; font-size: 2rem; }
+.profile-info { margin-top: 1.5rem; width: 100%; } /* doubled margin */
+.profile-name { font-size: 2.1rem; font-weight: 700; color: #0b1220; margin: 0 0 0.5rem 0; } /* doubled font size and margin */
+.profile-role { color: #64748b; margin: 0 0 1rem 0; font-size: 1.9rem; } /* doubled margin and added doubled font size */
+.profile-location { color: #64748b; font-size: 1.9rem; margin-bottom: 1.2rem; } /* doubled font size and margin */
+.profile-links a { display: inline-flex; align-items: center; color: #3b82f6; margin: 1rem 1.5rem 1rem 0; text-decoration: none; font-weight:600; font-size: 0; } /* doubled margins */
+.profile-links a i { margin-right: 0; font-size: 4rem; } /* doubled icon size */
 
 @media (max-width: 768px) {
   .hero-inner {
@@ -248,12 +249,12 @@ nav strong {
 .profile-side { width: auto; flex: 0 0 auto; text-align: center; align-items: center; }
 .profile-info { text-align: center; }
 .hero-pic {
-  width: 260px; /* increased from 220px */
-  height: 260px; /* increased from 220px */
+  width: 520px; /* doubled from 260px */
+  height: 520px; /* doubled from 260px */
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #3b82f6; /* blue border */
-  box-shadow: 0 8px 24px rgba(59,130,246,0.15);
+  border: 8px solid #3b82f6; /* doubled border - blue border */
+  box-shadow: 0 16px 48px rgba(59,130,246,0.15); /* doubled shadow */
 }
 
 /* Hero text */
