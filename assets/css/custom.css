@@ -15,6 +15,7 @@
 html, body {
   min-height: 100%;
   margin: 0;
+  padding: 0;
   font-family: 'STIX Two Text', serif;
   line-height: 1.7;
   color: #1f2937; /* dark text for light background */
@@ -128,13 +129,18 @@ nav strong {
 
 /* Top navigation bar (centered nav links, name removed) */
 .top-nav {
-  width: 100%;
-  background: #e0f2fe;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: transparent;
   display: flex;
   justify-content: center;
   padding: 1rem 0;
-  margin: 0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   border-radius: 0;
 }
 .nav-links {
@@ -149,7 +155,7 @@ nav strong {
   margin: 0 0.9rem;
   font-weight: 600;
   text-decoration: none;
-  font-size: 1.08rem;
+  font-size: 1.25rem;
   padding: 0.25rem 0.5rem;
   transition: color 0.2s ease;
 }
@@ -164,14 +170,14 @@ nav strong {
 ============================= */
 
 .hero-banner {
-  padding: 3rem 2.5rem; /* reduced from 4rem to move content up */
-  background: linear-gradient(135deg, #ffffff 0%, #f0f8ff 100%); /* light blue tint */
-  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  background: transparent;
+  border-radius: 0;
   max-width: 1100px;
-  margin: 1.5rem auto; /* reduced from 2rem to move banner up */
-  box-shadow: 0 10px 30px rgba(59,130,246,0.06);
+  margin: 2rem auto;
+  box-shadow: none;
   color: #0f1724;
-  border: 2px solid #bfdbfe;
+  border: none;
   animation: slideInUp 0.6s ease-out;
 }
 
@@ -191,30 +197,31 @@ nav strong {
 
 /* Profile side column */
 .profile-side {
-  width: 300px; /* increased from 260px to accommodate larger picture */
-  flex: 0 0 300px;
+  width: 400px; /* reduced to 2/3 size */
+  flex: 0 0 400px;
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* left-align contents */
   text-align: left;
-  padding-left: 0.5rem;
+  padding-left: 0; /* moved more to the left */
+  margin-left: -2rem; /* shift further left */
 }
 
 .profile-side .hero-pic {
-  width: 220px; /* increased from 180px */
-  height: 220px; /* increased from 180px */
+  width: 293px; /* reduced to 2/3 size */
+  height: 293px; /* reduced to 2/3 size */
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #fff;
-  box-shadow: 0 8px 18px rgba(15,23,36,0.06);
+  border: 5px solid #fff; /* reduced border width */
+  box-shadow: 0 11px 24px rgba(15,23,36,0.06); /* reduced shadow */
 }
 
-.profile-info { margin-top: 0.75rem; width: 100%; }
-.profile-name { font-size: 1.05rem; font-weight: 700; color: #0b1220; margin: 0 0 0.25rem 0; }
-.profile-role { color: #64748b; margin: 0 0 0.5rem 0; }
-.profile-location { color: #64748b; font-size: 0.95rem; margin-bottom: 0.6rem; }
-.profile-links a { display: inline-flex; align-items: center; color: #3b82f6; margin: 0.25rem 0; text-decoration: none; font-weight:600; }
-.profile-links a i { margin-right: 0.5rem; }
+.profile-info { margin-top: 1rem; width: 100%; } /* reduced margin */
+.profile-name { font-size: 1.4rem; font-weight: 700; color: #0b1220; margin: 0 0 0.33rem 0; } /* reduced font size and margin */
+.profile-role { color: #64748b; margin: 0 0 0.67rem 0; font-size: 1.3rem; } /* reduced margin and font size */
+.profile-location { color: #64748b; font-size: 1.3rem; margin-bottom: 0.8rem; } /* reduced font size and margin */
+.profile-links a { display: inline-flex; align-items: center; color: #3b82f6; margin: 0.67rem 1rem 0.67rem 0; text-decoration: none; font-weight:600; font-size: 0; } /* reduced margins */
+.profile-links a i { margin-right: 0; font-size: 2.7rem; } /* reduced icon size */
 
 @media (max-width: 768px) {
   .hero-inner {
@@ -242,12 +249,12 @@ nav strong {
 .profile-side { width: auto; flex: 0 0 auto; text-align: center; align-items: center; }
 .profile-info { text-align: center; }
 .hero-pic {
-  width: 260px; /* increased from 220px */
-  height: 260px; /* increased from 220px */
+  width: 347px; /* reduced to 2/3 size */
+  height: 347px; /* reduced to 2/3 size */
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #3b82f6; /* blue border */
-  box-shadow: 0 8px 24px rgba(59,130,246,0.15);
+  border: 5px solid #3b82f6; /* reduced border - blue border */
+  box-shadow: 0 11px 32px rgba(59,130,246,0.15); /* reduced shadow */
 }
 
 /* Hero text */
@@ -297,7 +304,7 @@ nav strong {
 ============================= */
 
 .main-content {
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 1.5rem 1.5rem;
   text-align: center;
@@ -313,22 +320,22 @@ nav strong {
 
 /* Section Boxes */
 .section-box {
-  background: linear-gradient(135deg, #ffffff 0%, #f0f8ff 100%); /* light blue tint */
-  padding: 2rem 1.75rem; /* reduced from 3rem 2.5rem for smaller cards */
-  border-radius: 16px;
-  max-width: 650px; /* reduced from 900px */
-  margin: 2rem auto; /* reduced from 2.5rem */
-  box-shadow: 0 10px 30px rgba(59,130,246,0.05);
-  border: 2px solid #bfdbfe;
+  background: transparent;
+  padding: 1rem 1.5rem;
+  border-radius: 0;
+  max-width: 900px;
+  margin: 2rem auto;
+  box-shadow: none;
+  border: none;
   animation: slideInUp 0.6s ease-out 0.1s both;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  transition: none;
 }
 
 .section-box:hover {
-  transform: translateY(-4px) scale(1.02);
-  box-shadow: 0 15px 40px rgba(59,130,246,0.15);
-  border-color: #93c5fd;
-  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  transform: none;
+  box-shadow: none;
+  border-color: transparent;
+  background: transparent;
 }
 .section-box h1 {
   font-size: 1.8rem;
@@ -441,6 +448,9 @@ nav strong {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-top: 1.5rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 768px) {
@@ -449,7 +459,7 @@ nav strong {
 
 .card {
   background: linear-gradient(135deg, #ffffff 0%, #f8fcff 100%);
-  padding: 2rem;
+  padding: 1.25rem 2rem;
   border-radius: 14px;
   text-align: center;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -458,7 +468,7 @@ nav strong {
 }
 
 .card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-4px);
   box-shadow: 0 16px 40px rgba(59,130,246,0.12);
   border-color: #93c5fd;
 }
@@ -478,10 +488,10 @@ nav strong {
 }
 
 .project-card {
-  width: 80%;
-  max-width: 650px; /* reduced from 820px */
-  text-align: left; /* left-align project content */
-  padding: 1.5rem 1.5rem; /* reduced from 1.5rem 1.75rem */
+  width: 90%;
+  max-width: 900px;
+  text-align: left;
+  padding: 1.25rem 2rem;
   border-radius: 12px;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background 0.3s ease;
@@ -496,7 +506,7 @@ nav strong {
 
 @media (min-width: 1200px) {
   .project-list { gap: 1.5rem; }
-  .project-card { padding: 1.5rem 1.75rem; } /* reduced from 1.75rem 2rem */
+  .project-card { padding: 1.25rem 2rem; }
 }
 
 /* =============================
