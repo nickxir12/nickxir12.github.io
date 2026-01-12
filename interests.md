@@ -24,7 +24,7 @@ permalink: /Personal.html
   <div class="main-content">
     <h2>Photography</h2>
     <p class="subtext">I try to capture moments with my camera.</p>
-    <a class="subtext photo-link" href="https://www.flickr.com/people/203606562@N02/">See some of my photos</a>
+    <a class="subtext photo-link" href="https://www.flickr.com/photos/203606562@N02/">See some of my photos</a>
   </div>
       <!-- <div class="photo-grid" style="max-width:900px;margin:1rem auto 0;">
         {% assign gallery = site.static_files | where_exp:"file","file.path contains 'assets/css/img/mine/photos/'" %}
