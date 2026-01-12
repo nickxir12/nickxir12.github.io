@@ -24,5 +24,5 @@ permalink: /Personal.html
       <p class="subtext">I try to capture moments with my camera.</p>
       <a class="subtext photo-link" href="https://www.flickr.com/photos/203606562@N02/">See some of my photos</a>
     </div>
-
+</section>
 
