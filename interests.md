@@ -49,20 +49,30 @@ permalink: /Personal.html
   let currentPhotoIndex = 0;
   const carouselImage = document.getElementById('carousel-image');
 
+  // Preload next image to ensure smooth transition
+  function preloadNextImage() {
+    const nextIndex = (currentPhotoIndex + 1) % photos.length;
+    const img = new Image();
+    img.src = photos[nextIndex];
+  }
+
   function changePhoto() {
-    currentPhotoIndex = (currentPhotoIndex + 1) % photos.length;
+    // Fade out current image
     carouselImage.style.opacity = '0';
 
     setTimeout(() => {
-      // Preload the next image before displaying it
-      const newImage = new Image();
-      newImage.onload = function() {
-        carouselImage.src = photos[currentPhotoIndex];
-        carouselImage.style.opacity = '1';
-      };
-      newImage.src = photos[currentPhotoIndex];
+      // Update to next photo
+      currentPhotoIndex = (currentPhotoIndex + 1) % photos.length;
+      carouselImage.src = photos[currentPhotoIndex];
+      // Fade in new image
+      carouselImage.style.opacity = '1';
+      // Preload the next image for smoother subsequent transition
+      preloadNextImage();
     }, 300);
   }
+
+  // Preload the first next image
+  preloadNextImage();
 
   // Change photo every 5 seconds
   setInterval(changePhoto, 5000);
