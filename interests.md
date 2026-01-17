@@ -9,7 +9,6 @@ permalink: /Personal.html
 ---
 
 <section class="section-box">
-  <h3 class="photography-title">Photography</h3>
   <div class="photo-carousel">
     <img id="carousel-image" src="assets/css/img/photos/Col_1.jpg" alt="Photography">
   </div>
