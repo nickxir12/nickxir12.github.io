@@ -3,7 +3,7 @@ title: "  Personal"
 permalink: /Personal.html
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=6' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=7' | relative_url }}">
 {% include nav.html %}
 
 ---
@@ -54,8 +54,13 @@ permalink: /Personal.html
     carouselImage.style.opacity = '0';
 
     setTimeout(() => {
-      carouselImage.src = photos[currentPhotoIndex];
-      carouselImage.style.opacity = '1';
+      // Preload the next image before displaying it
+      const newImage = new Image();
+      newImage.onload = function() {
+        carouselImage.src = photos[currentPhotoIndex];
+        carouselImage.style.opacity = '1';
+      };
+      newImage.src = photos[currentPhotoIndex];
     }, 300);
   }
 
