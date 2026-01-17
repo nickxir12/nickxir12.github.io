@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
 /* =============================
    GLOBAL STYLES
 ============================= */
@@ -16,7 +19,7 @@ html, body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'STIX Two Text', serif;
+  font-family: 'Spectral', serif;
   line-height: 1.7;
   color: #1f2937; /* dark text for light background */
 
@@ -28,7 +31,7 @@ html, body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'STIX Two Text', serif;
+  font-family: 'Spectral', serif;
   font-weight: 700;
   letter-spacing: -0.5px;
   color: #0b1220; /* dark headings */
@@ -378,6 +381,38 @@ nav strong {
 
 .photo-link:hover {
   color: #ffb84d !important;
+}
+
+/* Photo carousel */
+.photo-carousel {
+  width: 100%;
+  max-width: 700px;
+  margin: 1.5rem auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(59,130,246,0.12);
+}
+
+#carousel-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.photo-caption {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
+
+.no-underline:hover {
+  text-decoration: none !important;
+  font-weight: 700 !important;
 }
 
 /* =============================
