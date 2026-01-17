@@ -332,6 +332,10 @@ nav strong {
   border: none;
   animation: slideInUp 0.6s ease-out 0.1s both;
   transition: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .section-box:hover {
@@ -386,18 +390,21 @@ nav strong {
 /* Photo carousel */
 .photo-carousel {
   width: 100%;
-  max-width: 850px;
-  max-height: 750px;
+  max-width: 600px;
   margin: 1.5rem auto;
   border-radius: 0;
-  overflow: hidden;
+  overflow: visible;
   box-shadow: none;
+  display: flex;
+  justify-content: center;
 }
 
 #carousel-image {
-  width: 100%;
-  height: 750px;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 550px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
   display: block;
   margin: 0 auto;
   transition: opacity 0.3s ease;
@@ -408,6 +415,7 @@ nav strong {
 .photo-caption {
   text-align: center;
   margin-top: 1.5rem;
+  font-size: 1.3rem !important;
 }
 
 /* Center the photography title */
