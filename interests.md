@@ -10,13 +10,13 @@ permalink: /Personal.html
 
 <section class="section-box">
   <p class="subtext photo-caption">I enjoy capturing moments with my camera. <a class="photo-link no-underline" href="https://www.flickr.com/photos/203606562@N02/">See more of my photos</a></p>
-  <div class="photo-single">
-    <img id="random-image" src="assets/css/img/photos/Col_1.jpg" alt="Photography">
+  <div class="photo-carousel">
+    <img id="carousel-image" src="assets/css/img/photos/Col_1.jpg" alt="Photography">
   </div>
 </section>
 
 <script>
-  // Array of all photo paths
+  // Photo carousel - display one random image per page load
   const photos = [
     'assets/css/img/photos/Col_1.jpg',
     'assets/css/img/photos/Col_2.jpg',
@@ -34,8 +34,9 @@ permalink: /Personal.html
     'assets/css/img/photos/Bl_5.jpg'
   ];
 
-  // Pick a random photo on page load
+  // Display a random photo on page load
   const randomIndex = Math.floor(Math.random() * photos.length);
-  document.getElementById('random-image').src = photos[randomIndex];
+  const carouselImage = document.getElementById('carousel-image');
+  carouselImage.src = photos[randomIndex];
 </script>
 
