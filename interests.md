@@ -9,10 +9,10 @@ permalink: /Personal.html
 ---
 
 <section class="section-box">
+  <p class="subtext photo-caption">I enjoy capturing moments with my camera. <a class="photo-link no-underline" href="https://www.flickr.com/photos/203606562@N02/">See more of my photos</a></p>
   <div class="photo-carousel">
     <img id="carousel-image" src="assets/css/img/photos/Col_1.jpg" alt="Photography">
   </div>
-  <p class="subtext photo-caption">I enjoy capturing moments with my camera. <a class="photo-link no-underline" href="https://www.flickr.com/photos/203606562@N02/">See some of my photos</a></p>
 </section>
 
 <script>
