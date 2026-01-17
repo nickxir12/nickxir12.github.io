@@ -11,10 +11,10 @@ permalink: /Personal.html
 <section class="section-box">
   <div class="project-list">
     <!-- Writing block -->
-    <div class="project-card card">
+    <!-- <div class="project-card card">
       <h3>Writing</h3>
       <p class="subtext">I write short blogs about AI and more. <a class="photo-link" href="https://medium.com/">Read blog</a></p>
-    </div>
+    </div> -->
 
     <!-- Photography block -->
     <div class="project-card card">
