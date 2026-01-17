@@ -19,19 +19,19 @@ permalink: /Personal.html
   // Photo carousel - display one random image per page load
   const photos = [
     'assets/css/img/photos/Col_1.jpg',
-    'assets/css/img/photos/Col_2.jpg',
-    'assets/css/img/photos/Col_3.jpg',
-    'assets/css/img/photos/Col_4.jpg',
-    'assets/css/img/photos/Col_5.jpg',
-    'assets/css/img/photos/Col_6.jpg',
-    'assets/css/img/photos/Col_7.jpg',
-    'assets/css/img/photos/Col_8.jpg',
-    'assets/css/img/photos/Col_9.jpg',
-    'assets/css/img/photos/Bl_1.jpg',
-    'assets/css/img/photos/Bl_2.jpg',
-    'assets/css/img/photos/Bl_3.jpg',
-    'assets/css/img/photos/Bl_4.jpg',
-    'assets/css/img/photos/Bl_5.jpg'
+    // 'assets/css/img/photos/Col_2.jpg',
+    // 'assets/css/img/photos/Col_3.jpg',
+    // 'assets/css/img/photos/Col_4.jpg',
+    // 'assets/css/img/photos/Col_5.jpg',
+    // 'assets/css/img/photos/Col_6.jpg',
+    // 'assets/css/img/photos/Col_7.jpg',
+    // 'assets/css/img/photos/Col_8.jpg',
+    // 'assets/css/img/photos/Col_9.jpg',
+    // 'assets/css/img/photos/Bl_1.jpg',
+    // 'assets/css/img/photos/Bl_2.jpg',
+    // 'assets/css/img/photos/Bl_3.jpg',
+    // 'assets/css/img/photos/Bl_4.jpg',
+    // 'assets/css/img/photos/Bl_5.jpg'
   ];
 
   // Display a random photo on page load
