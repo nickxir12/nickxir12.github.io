@@ -386,19 +386,21 @@ nav strong {
 /* Photo carousel */
 .photo-carousel {
   width: 100%;
-  max-width: 400px;
-  max-height: 300px;
+  max-width: 350px;
+  max-height: 250px;
   margin: 1.5rem auto;
-  border-radius: 12px;
+  border-radius: 0;
   overflow: hidden;
   box-shadow: 0 12px 30px rgba(59,130,246,0.12);
 }
 
 #carousel-image {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
+  width: auto;
+  max-width: 100%;
+  height: 250px;
+  object-fit: contain;
   display: block;
+  margin: 0 auto;
   transition: opacity 0.3s ease;
   opacity: 1;
 }
@@ -406,6 +408,11 @@ nav strong {
 .photo-caption {
   text-align: center;
   margin-top: 1.5rem;
+}
+
+/* Center the photography title */
+.photography-card h3 {
+  text-align: center;
 }
 
 .no-underline {
@@ -442,7 +449,7 @@ nav strong {
   flex: none;
   background: linear-gradient(135deg, #ffffff 0%, #f8fcff 100%);
   border: 1px solid #e0eefd;
-  border-radius: 10px;
+  border-radius: 0;
   padding: 0.85rem 1rem;
   box-shadow: 0 6px 18px rgba(59,130,246,0.03);
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background 0.3s ease;
@@ -497,7 +504,7 @@ nav strong {
 .card {
   background: linear-gradient(135deg, #ffffff 0%, #f8fcff 100%);
   padding: 1.25rem 2rem;
-  border-radius: 14px;
+  border-radius: 0;
   text-align: center;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   box-shadow: 0 8px 20px rgba(59,130,246,0.04);
@@ -529,7 +536,7 @@ nav strong {
   max-width: 900px;
   text-align: left;
   padding: 1.25rem 2rem;
-  border-radius: 12px;
+  border-radius: 0;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background 0.3s ease;
 }
@@ -556,13 +563,13 @@ nav strong {
   gap: 12px;
   margin-top: 1.25rem;
 }
-.photo-item { display: block; overflow: hidden; border-radius: 8px; }
+.photo-item { display: block; overflow: hidden; border-radius: 0; }
 .photo-item img {
   width: 100%;
   height: 160px;
   object-fit: cover;
   display: block;
-  border-radius: 8px;
+  border-radius: 0;
   border: 1px solid #e6eefc;
   box-shadow: 0 8px 18px rgba(59,130,246,0.06);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
