@@ -14,7 +14,7 @@ title: "Home"
 <section class="hero-banner">
   <div class="hero-inner has-pic">
     <aside class="profile-side">
-      <img src="/assets/css/img/mine/My_photo.jpg" alt="Nikolas Xi̱ros" class="hero-pic">
+      <img src="/assets/css/img/mine/pic2.jpg" alt="Nikolas Xi̱ros" class="hero-pic">
       <div class="profile-info">
         <h2 class="profile-name">Nikolas Xi̱ros</h2>
         <p class="profile-role">AI Researcher @ ISLP, Athena RC</p>

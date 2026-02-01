@@ -9,6 +9,7 @@ permalink: /Personal.html
 ---
 
 <section class="section-box">
+  <h2 class="section-title" style="text-align: center;">Photography</h2>
   <p class="subtext photo-caption">I enjoy capturing moments with my camera. <a class="photo-link no-underline" href="https://www.flickr.com/photos/203606562@N02/">See more of my photos</a></p>
   <div class="photo-carousel">
     <img id="carousel-image" src="assets/css/img/photos/Col_1.jpg" alt="Photography">
@@ -39,4 +40,11 @@ permalink: /Personal.html
   const carouselImage = document.getElementById('carousel-image');
   carouselImage.src = photos[randomIndex];
 </script>
+
+<section class="section-box">
+  <h2 class="section-title" style="text-align: center;">Favorite Sayings</h2>
+  <ul class="sayings-list">
+    <li>"If you look for a meaning, you'll miss everything that happens." — Andrei Tarkovsky</li>
+  </ul>
+</section>
 
