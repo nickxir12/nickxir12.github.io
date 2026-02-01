@@ -450,6 +450,7 @@ nav strong {
 
 /* Section title with reduced gap */
 .section-title {
+  font-size: 2.2rem !important;
   margin-bottom: 0.3rem !important;
 }
 
@@ -463,7 +464,7 @@ nav strong {
 
 .sayings-list li {
   font-family: 'Playfair Display', serif !important;
-  font-size: 1.2rem !important;
+  font-size: 1.05rem !important;
   font-style: italic;
   color: #334155 !important;
   line-height: 1.8;
