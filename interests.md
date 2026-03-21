@@ -3,7 +3,7 @@ title: "  Personal"
 permalink: /Personal.html
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=21' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=22' | relative_url }}">
 {% include nav.html %}
 
 ---
@@ -14,37 +14,17 @@ permalink: /Personal.html
   <div class="photo-carousel">
     <img id="carousel-image" src="assets/css/img/photos/Col_1.jpg" alt="Photography">
   </div>
-</section>
 
-<script>
-  // Photo carousel - display one random image per page load
-  const photos = [
-    'assets/css/img/photos/Col_1.jpg',
-    // 'assets/css/img/photos/Col_2.jpg',
-    // 'assets/css/img/photos/Col_3.jpg',
-    // 'assets/css/img/photos/Col_4.jpg',
-    // 'assets/css/img/photos/Col_5.jpg',
-    // 'assets/css/img/photos/Col_6.jpg',
-    // 'assets/css/img/photos/Col_7.jpg',
-    // 'assets/css/img/photos/Col_8.jpg',
-    // 'assets/css/img/photos/Col_9.jpg',
-    // 'assets/css/img/photos/Bl_1.jpg',
-    // 'assets/css/img/photos/Bl_2.jpg',
-    // 'assets/css/img/photos/Bl_3.jpg',
-    // 'assets/css/img/photos/Bl_4.jpg',
-    // 'assets/css/img/photos/Bl_5.jpg'
-  ];
-
-  // Display a random photo on page load
-  const randomIndex = Math.floor(Math.random() * photos.length);
-  const carouselImage = document.getElementById('carousel-image');
-  carouselImage.src = photos[randomIndex];
-</script>
-
-<section class="section-box">
-  <h2 class="section-title" style="text-align: center;">Favorite Sayings</h2>
-  <ul class="sayings-list">
+  <ul class="sayings-list" style="margin-top: 2rem;">
     <li>"If you look for a meaning, you'll miss everything that happens." — Andrei Tarkovsky</li>
   </ul>
 </section>
+
+<script>
+  const photos = [
+    'assets/css/img/photos/Col_1.jpg',
+  ];
+  const randomIndex = Math.floor(Math.random() * photos.length);
+  document.getElementById('carousel-image').src = photos[randomIndex];
+</script>
 
