@@ -17,9 +17,9 @@
   --border-hover: #f4845f;
 
   /* Accents */
-  --accent:        #b87040;   /* muted warm terracotta */
-  --accent-light:  rgba(184,112,64,0.08);
-  --accent-deep:   #8a5228;
+  --accent:        #e8914a;   /* light open amber-orange */
+  --accent-light:  rgba(232,145,74,0.09);
+  --accent-deep:   #c4702a;
   --accent-blue:   #2d6da8;   /* contrast blue for links/badges */
   --accent-green:  #1a6e45;
 
