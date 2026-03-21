@@ -2,10 +2,11 @@
 title: "Home"
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=23' | relative_url }}">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=24' | relative_url }}">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
 
 {% include nav.html %}
 
@@ -14,7 +15,7 @@ title: "Home"
 <section class="hero-banner">
   <div class="hero-inner has-pic">
     <aside class="profile-side">
-      <img src="/assets/css/img/mine/pic2.jpg" alt="Nikolas Xi̱ros" class="hero-pic">
+      <img src="/assets/css/img/mine/pic2.webp" alt="Nikolas Xi̱ros" class="hero-pic" width="180" height="180" fetchpriority="high">
       <div class="profile-info">
         <h2 class="profile-name">Nikolas Xi̱ros</h2>
         <p class="profile-role">AI Researcher @ ISLP, Athena RC</p>
@@ -49,4 +50,3 @@ title: "Home"
     </div>
   </div>
 </section>
-
