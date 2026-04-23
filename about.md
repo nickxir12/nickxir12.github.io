@@ -3,7 +3,7 @@ title: "About"
 permalink: /about.html
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=27' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=28' | relative_url }}">
 
 {% include nav.html %}
 
