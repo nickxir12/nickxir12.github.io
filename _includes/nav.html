@@ -10,7 +10,8 @@
       {% else %}
         <a href="{{ link }}">{{ label }}</a>
       {% endif %}
-      {% unless forloop.last %}<span class="sep">·</span>{% endunless %}
+      <span class="sep">·</span>
     {% endfor %}
+    <a class="nav-cv" href="/assets/CV/CV.pdf" target="_blank" rel="noopener">CV</a>
   </nav>
 </header>

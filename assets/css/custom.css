@@ -189,6 +189,27 @@ a.skip-to-content {
   user-select: none;
 }
 
+.nav-cv {
+  margin-left: 0.5rem;
+  padding: 0.35rem 1rem !important;
+  background: var(--accent) !important;
+  color: #fff !important;
+  border-radius: 99px !important;
+  font-weight: 600 !important;
+  font-size: 0.88rem !important;
+  letter-spacing: 0.03em;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.nav-cv:hover {
+  background: var(--accent-deep) !important;
+  color: #fff !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 14px rgba(232,145,74,0.28) !important;
+}
+
+.nav-cv::after { display: none !important; }
+
 /* =============================
    LAYOUT — full-width content
 ============================= */

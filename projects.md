@@ -4,7 +4,7 @@ permalink: /projects.html
 ---
 
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=25' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=26' | relative_url }}">
 
 {% include nav.html %}
 
