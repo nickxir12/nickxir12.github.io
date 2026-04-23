@@ -191,21 +191,23 @@ a.skip-to-content {
 
 .nav-cv {
   margin-left: 0.5rem;
-  padding: 0.35rem 1rem !important;
-  background: var(--accent) !important;
-  color: #fff !important;
-  border-radius: 99px !important;
-  font-weight: 600 !important;
-  font-size: 0.88rem !important;
+  padding: 0.35rem 1rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 99px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.88rem;
   letter-spacing: 0.03em;
-  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease !important;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .nav-cv:hover {
-  background: var(--accent-deep) !important;
-  color: #fff !important;
-  transform: translateY(-1px) !important;
-  box-shadow: 0 4px 14px rgba(232,145,74,0.28) !important;
+  background: var(--accent-deep);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(232,145,74,0.28);
 }
 
 .nav-cv::after { display: none !important; }
@@ -743,3 +745,125 @@ p[align="center"] { margin: 0; }
 p[align="center"] a { padding: 0 0.5rem; font-weight: 600; color: var(--accent); }
 p[align="center"] a:hover { color: var(--accent-deep); }
 nav strong { color: var(--accent); }
+
+/* =============================
+   CV MODAL
+============================= */
+.cv-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.cv-modal.open {
+  display: flex;
+}
+
+.cv-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(30, 24, 18, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.cv-modal-box {
+  position: relative;
+  z-index: 1;
+  width: min(860px, 94vw);
+  height: min(92vh, 1100px);
+  background: var(--bg-surface);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border);
+  box-shadow: 0 32px 80px rgba(0,0,0,0.22), 0 2px 0 rgba(255,255,255,0.5) inset;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: modalIn 0.28s cubic-bezier(0.22,1,0.36,1) both;
+}
+
+@keyframes modalIn {
+  from { opacity: 0; transform: scale(0.96) translateY(16px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.cv-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.4rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-card);
+  flex-shrink: 0;
+}
+
+.cv-modal-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+}
+
+.cv-modal-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.cv-btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.38rem 0.9rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 99px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.cv-btn-download:hover {
+  background: var(--accent-deep);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.cv-btn-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.cv-btn-close:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.cv-modal-body {
+  flex: 1;
+  overflow: hidden;
+}
+
+.cv-modal-body iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .cv-modal-box { width: 100vw; height: 100dvh; border-radius: 0; }
+}

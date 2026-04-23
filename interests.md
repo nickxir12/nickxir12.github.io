@@ -3,7 +3,7 @@ title: "  Personal"
 permalink: /Personal.html
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=26' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=27' | relative_url }}">
 {% include nav.html %}
 
 ---
