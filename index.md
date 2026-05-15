@@ -33,7 +33,11 @@ title: "Home"
       <h1>Hi, I'm Nikolas </h1>
       <p class="tagline">AI & Multimodal Learning Researcher</p>
       <p class="subtext">
-        I'm a recent graduate from ECE, National Technical University of Athens. I work on multimodal learning, NLP and interpretability, with interests in exploring models' behavior and their social impact.
+      As a Associate Researcher at the Athena Research Center and a MEng graduate in Electrical and Computer Engineering from the National Technical University of Athens, I’m passionate about Machine Learning and Natural Language
+      Processing. My research interests involve investigating the reasoning capabilities of NLP models, designing interpretability algorithms, and enhancing the safety and reliability of AI systems. Beyond technical development, I am dedicated
+      to analyzing how AI interacts with society by evaluating fairness, transparency, and ethical implications in real-world
+      deployment scenarios.
+
       </p>
 
       <h3 class="news-heading">News</h3>

@@ -38,8 +38,8 @@ permalink: /projects.html
 
     <div class="project-card card">
       <h3>Multimodal Sentiment Analysis</h3>
-      <p><em>All interactions matter: Modality-Preserving Deep Fusion for Multimodal Sentiment Analysis</em></p>
-      <p class="conference-note">Submitted at ICASSP 2026.</p>
+      <p><em>Segregate, Refine, Integrate: Decomposing Multimodal Fusion for Sentiment Analysis</em></p>
+      <p class="conference-note">Submitted at Interspeech 2026.</p>
     </div>
 
     <div class="project-card card">
