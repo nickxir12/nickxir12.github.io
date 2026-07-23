@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=28' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=29' | relative_url }}">
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
@@ -22,8 +22,9 @@ title: "Home"
         <p class="profile-location"><i class="fas fa-map-marker-alt"></i> Athens, Greece</p>
 
         <div class="profile-links">
-          <a href="https://github.com/nickxir12" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/nikolaos-xiros-972b531a7" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/nickxir12" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/nikolaos-xiros-972b531a7" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://scholar.google.com/citations?user=gxXUPUkAAAAJ&hl=el" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
           <a href="mailto:nikolasxiros2002@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
