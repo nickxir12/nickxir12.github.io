@@ -499,6 +499,11 @@ a.skip-to-content {
   line-height: 1.55;
 }
 
+.news-item p strong {
+  font-weight: 700;
+  color: var(--text-primary) !important;
+}
+
 /* =============================
    PROJECT CARDS
 ============================= */
@@ -552,6 +557,7 @@ a.skip-to-content {
   font-size: 0.92rem !important;
   margin: 0.22rem 0;
   line-height: 1.65;
+  max-width: 62ch;
 }
 
 .project-card em { color: var(--text-muted) !important; font-style: italic; }
@@ -762,13 +768,29 @@ a.skip-to-content {
 
 /* Photo carousel */
 .photo-carousel {
-  position: relative;
-  max-width: 780px;
+  /* Frame width plus symmetric room for both arrows, so the image
+     stays optically centred rather than shifted by one of them. */
+  max-width: 822px;
   margin: 0 auto;
 }
 
+/* Arrows anchor to the image only, not to the dots row below it. */
+.carousel-stage {
+  position: relative;
+  padding: 0 21px;
+}
+
 .photo-carousel .photo-frame {
-  max-width: 100%;
+  max-width: none;
+  width: 100%;
+  margin: 0;
+}
+
+/* No hover lift here — it would slide the image out of line with the
+   fixed arrows every time the pointer crosses it. */
+.photo-carousel .photo-frame:hover {
+  transform: none;
+  box-shadow: var(--shadow-lg);
 }
 
 .photo-frame img {
@@ -812,12 +834,13 @@ a.skip-to-content {
   outline-offset: 3px;
 }
 
-.carousel-prev { left: -21px; }
-.carousel-next { right: -21px; }
+.carousel-prev { left: 0; }
+.carousel-next { right: 0; }
 
 .carousel-dots {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 0.45rem;
   margin-top: 1rem;
 }
@@ -885,6 +908,7 @@ a.skip-to-content {
 @media (max-width: 768px) {
   .pull-quote blockquote { font-size: 1rem; }
   .photo-frame { padding: 6px; }
+  .carousel-stage { padding: 0; }
   .carousel-arrow { width: 36px; height: 36px; font-size: 0.85rem; }
   .carousel-prev { left: 8px; }
   .carousel-next { right: 8px; }

@@ -3,7 +3,7 @@ title: "  Personal"
 permalink: /Personal.html
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=31' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=32' | relative_url }}">
 {% include nav.html %}
 
 ---
@@ -16,17 +16,19 @@ permalink: /Personal.html
   </div>
 
   <div class="photo-carousel">
-    <button class="carousel-arrow carousel-prev" type="button" aria-label="Previous photo">
-      <i class="fas fa-chevron-left"></i>
-    </button>
+    <div class="carousel-stage">
+      <button class="carousel-arrow carousel-prev" type="button" aria-label="Previous photo">
+        <i class="fas fa-chevron-left"></i>
+      </button>
 
-    <figure class="photo-frame">
-      <img id="carousel-image" src="assets/css/img/photos/Col_1.webp" alt="Photography by Nikolas Xiros" width="1400" height="935" fetchpriority="high">
-    </figure>
+      <figure class="photo-frame">
+        <img id="carousel-image" src="assets/css/img/photos/Col_1.webp" alt="Photography by Nikolas Xiros" width="1400" height="935" fetchpriority="high">
+      </figure>
 
-    <button class="carousel-arrow carousel-next" type="button" aria-label="Next photo">
-      <i class="fas fa-chevron-right"></i>
-    </button>
+      <button class="carousel-arrow carousel-next" type="button" aria-label="Next photo">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
 
     <div class="carousel-dots" id="carousel-dots" role="tablist" aria-label="Choose photo"></div>
   </div>

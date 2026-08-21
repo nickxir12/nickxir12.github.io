@@ -4,7 +4,7 @@ permalink: /projects.html
 ---
 
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=31' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=32' | relative_url }}">
 
 {% include nav.html %}
 
@@ -33,14 +33,14 @@ permalink: /projects.html
     <div class="project-card card">
       <h3>Disentangling Knowledge and Verbalization in LLMs</h3>
       <p><em>Knowledge Knows, Verbalization Tells: Disentangling Latent Directions for Mathematical Solvability in LLMs</em></p>
-      <p>Paper showing that LLMs encode <em>knowing</em> a math problem is unsolvable separately from <em>saying</em> so, as distinct linearly decodable directions. Fabrication tracks verbalization rather than knowledge, and steering these directions improves abstention.</p>
+      <p>Paper showing that LLMs encode <em>knowing</em> a math problem is unsolvable separately from <em>saying</em> so, as distinct linearly decodable directions.</p>
       <p class="conference-note">Preprint available on <a href="https://arxiv.org/abs/2607.05013" target="_blank" rel="noopener">arXiv</a>.</p>
     </div>
 
     <div class="project-card card">
       <h3>Contrastive Routing for Mixture-of-Experts</h3>
       <p><em>Beyond Magnitude: Contrastive Routing for Modular Mixture-of-Experts</em></p>
-      <p>Work on MoE architectures. Instead of routing on absolute magnitude, CoRM contrasts each token against an EMA of the layer's hidden states, concentrating the routing signal onto a low-dimensional separable subspace. Experts specialize along linguistic structure, gaining +1.15% (Top-1) and +1.65% (Top-2) on nine zero-shot reasoning benchmarks at ~3% added parameters and FLOPs.</p>
+      <p>Work on MoE architectures. Instead of routing on absolute magnitude, CoRM contrasts each token against an EMA of the layer's hidden states, concentrating the routing signal onto a low-dimensional separable subspace.</p>
       <p class="conference-note">Accepted at EMNLP 2026 (Main).</p>
     </div>
 
