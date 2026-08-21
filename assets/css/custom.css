@@ -695,7 +695,7 @@ a.skip-to-content {
    PERSONAL PAGE
 ============================= */
 .personal-section {
-  max-width: 860px;
+  max-width: 1140px;
   margin: 0 auto;
   padding-top: 1rem;
 }
@@ -764,10 +764,10 @@ a.skip-to-content {
 }
 
 .photo-carousel .photo-frame {
-  max-width: 596px;
+  max-width: 880px;
   width: 100%;
   margin: 0;
-  flex: 0 1 596px;
+  flex: 0 1 880px;
   min-width: 0;
 }
 
@@ -828,14 +828,12 @@ a.skip-to-content {
 }
 
 .carousel-dot {
-  width: 13px;
-  height: 13px;
+  width: 11px;
+  height: 11px;
   padding: 0;
-  /* Thin white perimeter separating each dot from the one beside it. */
-  border: 2px solid var(--bg-surface);
+  border: none;
   border-radius: 50%;
   background: var(--border);
-  background-clip: padding-box;
   cursor: pointer;
   transition: background 0.2s, transform 0.2s, opacity 0.2s;
 }
@@ -912,7 +910,7 @@ a.skip-to-content {
   .photo-frame { order: 1; flex: 0 0 100%; }
   .carousel-side-next { order: 3; }
   .carousel-dots { gap: 0.35rem; }
-  .carousel-dot { width: 11px; height: 11px; border-width: 2px; }
+  .carousel-dot { width: 10px; height: 10px; }
 }
 
 /* =============================
