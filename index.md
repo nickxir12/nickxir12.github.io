@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=35' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=36' | relative_url }}">
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
@@ -43,7 +43,7 @@ title: "Home"
       <div class="news-section">
         <div class="news-item">
           <span class="news-date">August 2026</span>
-          <p>Our paper <strong>"Beyond Magnitude: Contrastive Routing for Modular Mixture-of-Experts"</strong> was accepted at EMNLP 2026 Main Conference</p>
+          <p>Our paper <em>"Beyond Magnitude: Contrastive Routing for Modular Mixture-of-Experts"</em> was accepted at EMNLP 2026 Main Conference</p>
         </div>
         <div class="news-item">
           <span class="news-date">October 2025</span>

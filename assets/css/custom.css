@@ -499,8 +499,11 @@ a.skip-to-content {
   line-height: 1.55;
 }
 
-.news-item p strong {
-  font-weight: 700;
+/* Weight 400 is the only italic axis loaded for Inter, so keep it there
+   and let colour carry the emphasis — 500 would synthesise a fake oblique. */
+.news-item p em {
+  font-style: italic;
+  font-weight: 400;
   color: var(--text-primary) !important;
 }
 
