@@ -51,7 +51,7 @@ permalink: /projects.html
     <div class="project-card card">
       <h3>Multimodal Sentiment Analysis</h3>
       <p><em>Segregate, Refine, Integrate: Decomposing Multimodal Fusion for Sentiment Analysis</em></p>
-      <p class="conference-note">Submitted at Interspeech 2026.</p>
+      <p class="conference-note">Accepted at Interspeech 2026. Available on <a href="https://arxiv.org/abs/2607.12686" target="_blank" rel="noopener">arXiv</a>.</p>
     </div>
 
     <div class="project-card card">
