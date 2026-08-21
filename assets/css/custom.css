@@ -760,6 +760,86 @@ a.skip-to-content {
   border-radius: var(--radius-md);
 }
 
+/* Photo carousel */
+.photo-carousel {
+  position: relative;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.photo-carousel .photo-frame {
+  max-width: 100%;
+}
+
+.photo-frame img {
+  transition: opacity 0.25s ease;
+}
+
+.photo-frame img.is-swapping {
+  opacity: 0.45;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 1.5px solid var(--border);
+  border-radius: 50%;
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.carousel-arrow:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  transform: translateY(-50%) scale(1.08);
+}
+
+.carousel-arrow:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.carousel-prev { left: -21px; }
+.carousel-next { right: -21px; }
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--border);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.carousel-dot:hover { background: var(--border-hover); }
+
+.carousel-dot.is-active {
+  background: var(--accent);
+  transform: scale(1.35);
+}
+
 /* Editorial pull-quote */
 .pull-quote {
   position: relative;
@@ -787,8 +867,8 @@ a.skip-to-content {
   margin: 0;
   font-family: 'Playfair Display', serif;
   font-style: italic;
-  font-size: 1.5rem;
-  line-height: 1.5;
+  font-size: 1.15rem;
+  line-height: 1.55;
   color: var(--text-primary);
   letter-spacing: -0.01em;
 }
@@ -803,8 +883,11 @@ a.skip-to-content {
 }
 
 @media (max-width: 768px) {
-  .pull-quote blockquote { font-size: 1.2rem; }
+  .pull-quote blockquote { font-size: 1rem; }
   .photo-frame { padding: 6px; }
+  .carousel-arrow { width: 36px; height: 36px; font-size: 0.85rem; }
+  .carousel-prev { left: 8px; }
+  .carousel-next { right: 8px; }
 }
 
 /* =============================
