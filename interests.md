@@ -3,7 +3,7 @@ title: "  Personal"
 permalink: /Personal.html
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=32' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=33' | relative_url }}">
 {% include nav.html %}
 
 ---
@@ -17,20 +17,24 @@ permalink: /Personal.html
 
   <div class="photo-carousel">
     <div class="carousel-stage">
-      <button class="carousel-arrow carousel-prev" type="button" aria-label="Previous photo">
-        <i class="fas fa-chevron-left"></i>
-      </button>
+      <div class="carousel-side carousel-side-prev">
+        <div class="carousel-dots" id="dots-prev" aria-label="Previous photos"></div>
+        <button class="carousel-arrow carousel-prev" type="button" aria-label="Previous photo">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+      </div>
 
       <figure class="photo-frame">
         <img id="carousel-image" src="assets/css/img/photos/Col_1.webp" alt="Photography by Nikolas Xiros" width="1400" height="935" fetchpriority="high">
       </figure>
 
-      <button class="carousel-arrow carousel-next" type="button" aria-label="Next photo">
-        <i class="fas fa-chevron-right"></i>
-      </button>
+      <div class="carousel-side carousel-side-next">
+        <button class="carousel-arrow carousel-next" type="button" aria-label="Next photo">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="carousel-dots" id="dots-next" aria-label="Next photos"></div>
+      </div>
     </div>
-
-    <div class="carousel-dots" id="carousel-dots" role="tablist" aria-label="Choose photo"></div>
   </div>
 
   <figure class="pull-quote">
@@ -52,29 +56,45 @@ permalink: /Personal.html
     'Bl_2.webp'
   ].map(function (f) { return base + f; });
 
+  const SIDE = 3; // dots shown on each side of the photo
   const img = document.getElementById('carousel-image');
-  const dotsWrap = document.getElementById('carousel-dots');
+  const prevWrap = document.getElementById('dots-prev');
+  const nextWrap = document.getElementById('dots-next');
   let index = 0;
 
-  const dots = photos.map(function (_, i) {
-    const dot = document.createElement('button');
-    dot.type = 'button';
-    dot.className = 'carousel-dot';
-    dot.setAttribute('role', 'tab');
-    dot.setAttribute('aria-label', 'Photo ' + (i + 1) + ' of ' + photos.length);
-    dot.addEventListener('click', function () { show(i); });
-    dotsWrap.appendChild(dot);
-    return dot;
-  });
+  function wrap(i) {
+    return (i % photos.length + photos.length) % photos.length;
+  }
+
+  function buildDots(container, offsets) {
+    container.innerHTML = '';
+    offsets.forEach(function (offset) {
+      const target = wrap(index + offset);
+      const dot = document.createElement('button');
+      dot.type = 'button';
+      dot.className = 'carousel-dot';
+      // Nearer photos read as more prominent.
+      dot.classList.add('step-' + Math.min(Math.abs(offset), SIDE));
+      dot.setAttribute('aria-label', 'Go to photo ' + (target + 1) + ' of ' + photos.length);
+      dot.addEventListener('click', function () { show(target); });
+      container.appendChild(dot);
+    });
+  }
+
+  function renderDots() {
+    // Left column counts back from the photo, right column counts forward.
+    buildDots(prevWrap, [-3, -2, -1]);
+    buildDots(nextWrap, [1, 2, 3]);
+  }
 
   // Warm the neighbours so arrow clicks feel instant.
   function preload(i) {
     const pre = new Image();
-    pre.src = photos[(i + photos.length) % photos.length];
+    pre.src = photos[wrap(i)];
   }
 
   function show(next) {
-    index = (next + photos.length) % photos.length;
+    index = wrap(next);
     img.classList.add('is-swapping');
     const loader = new Image();
     loader.onload = function () {
@@ -83,11 +103,7 @@ permalink: /Personal.html
     };
     loader.src = photos[index];
 
-    dots.forEach(function (dot, i) {
-      dot.classList.toggle('is-active', i === index);
-      dot.setAttribute('aria-selected', i === index ? 'true' : 'false');
-    });
-
+    renderDots();
     preload(index + 1);
     preload(index - 1);
   }
@@ -102,9 +118,9 @@ permalink: /Personal.html
 
   // Swipe on touch devices.
   let touchX = null;
-  const frame = document.querySelector('.photo-carousel');
-  frame.addEventListener('touchstart', function (e) { touchX = e.changedTouches[0].clientX; }, { passive: true });
-  frame.addEventListener('touchend', function (e) {
+  const stage = document.querySelector('.photo-carousel');
+  stage.addEventListener('touchstart', function (e) { touchX = e.changedTouches[0].clientX; }, { passive: true });
+  stage.addEventListener('touchend', function (e) {
     if (touchX === null) { return; }
     const delta = e.changedTouches[0].clientX - touchX;
     if (Math.abs(delta) > 45) { show(delta < 0 ? index + 1 : index - 1); }
