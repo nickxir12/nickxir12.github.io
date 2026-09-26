@@ -4,8 +4,9 @@ permalink: /projects.html
 ---
 
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=39' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=40' | relative_url }}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 {% include nav.html %}
 
@@ -33,10 +34,11 @@ permalink: /projects.html
   <div class="project-list">
     <div class="project-card card">
       <h3>More Capable, Less Faithful: A Multilingual Analysis of Mathematical (Un)Solvability Detection in LLMs</h3>
-      <p>The first multilingual benchmark of paired solvable and unsolvable math problems, extending ReliableMath to French and Greek. Solvability is encoded as a largely language-agnostic feature, yet higher-resource languages like English are less faithful at flagging unsolvable problems.</p>
+      <p>A multilingual benchmark of solvable and unsolvable math problems, showing that higher-resource languages like English flag unsolvable problems less faithfully.</p>
       <p class="conference-note">Accepted at MRL Workshop @ EMNLP 2026.</p>
       <div class="paper-links">
         <a class="paper-link" href="https://arxiv.org/abs/2608.30463" target="_blank" rel="noopener" title="arXiv preprint" aria-label="arXiv preprint"><i class="ai ai-arxiv"></i></a>
+        <a class="paper-link paper-link-gh" href="https://github.com/athena-ilsp/MoreCapableLessFaithful" target="_blank" rel="noopener" title="Code on GitHub" aria-label="Code on GitHub"><i class="fab fa-github"></i></a>
       </div>
     </div>
 
@@ -54,6 +56,7 @@ permalink: /projects.html
       <p class="conference-note">Accepted at EMNLP 2026 (Main).</p>
       <div class="paper-links">
         <a class="paper-link" href="https://arxiv.org/abs/2609.01100" target="_blank" rel="noopener" title="arXiv preprint" aria-label="arXiv preprint"><i class="ai ai-arxiv"></i></a>
+        <a class="paper-link paper-link-gh" href="https://github.com/athena-ilsp/CoRM" target="_blank" rel="noopener" title="Code on GitHub" aria-label="Code on GitHub"><i class="fab fa-github"></i></a>
       </div>
     </div>
 

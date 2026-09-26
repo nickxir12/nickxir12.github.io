@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=39' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=40' | relative_url }}">
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
@@ -15,7 +15,7 @@ title: "Home"
 <section class="hero-banner">
   <div class="hero-inner has-pic">
     <aside class="profile-side">
-      <img src="/assets/css/img/mine/pic2.webp" alt="Nikolas Xi̱ros" class="hero-pic" width="270" height="270" fetchpriority="high">
+      <img src="/assets/css/img/mine/pic2.webp" alt="Nikolas Xi̱ros" class="hero-pic" width="320" height="320" fetchpriority="high">
       <div class="profile-info">
         <h2 class="profile-name">Nikolas Xi̱ros</h2>
         <p class="profile-role">AI Researcher @ ISLP, Athena RC</p>
