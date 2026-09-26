@@ -1,16 +1,15 @@
 ---
-title: "  Personal"
+title: "Personal"
 permalink: /Personal.html
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=37' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=38' | relative_url }}">
 {% include nav.html %}
 
 ---
 
 <section class="section-box personal-section">
   <div class="personal-header">
-    <span class="personal-eyebrow">Beyond research</span>
     <h2 class="section-title">Photography</h2>
     <p class="subtext photo-caption">I enjoy capturing moments with my camera. <a class="photo-link no-underline" href="https://www.flickr.com/photos/203606562@N02/" target="_blank" rel="noopener">See more of my photos <i class="fas fa-arrow-right" style="font-size:0.72em;"></i></a></p>
   </div>
