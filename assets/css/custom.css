@@ -504,6 +504,11 @@ a.skip-to-content {
 
 /* Weight 400 is the only italic axis loaded for Inter, so keep it there
    and let colour carry the emphasis — 500 would synthesise a fake oblique. */
+.news-item p strong {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
 .news-item p em {
   font-style: italic;
   font-weight: 400;
@@ -747,7 +752,7 @@ a.skip-to-content {
    PERSONAL PAGE
 ============================= */
 .personal-section {
-  max-width: 1040px;
+  max-width: 1160px;
   margin: 0 auto;
   padding-top: 1rem;
 }
@@ -772,10 +777,10 @@ a.skip-to-content {
 
 .photo-frame {
   margin: 0 auto;
-  max-width: 780px;
-  padding: 10px;
+  max-width: 900px;
+  padding: 4px;
   background: var(--bg-surface);
-  border: 1.5px solid var(--border);
+  border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
   transition: transform 0.35s ease, box-shadow 0.35s ease;
@@ -816,10 +821,10 @@ a.skip-to-content {
 }
 
 .photo-carousel .photo-frame {
-  max-width: 780px;
+  max-width: 900px;
   width: 100%;
   margin: 0;
-  flex: 0 1 780px;
+  flex: 0 1 900px;
   min-width: 0;
 }
 
@@ -952,7 +957,7 @@ a.skip-to-content {
 
 @media (max-width: 768px) {
   .pull-quote blockquote { font-size: 1rem; }
-  .photo-frame { padding: 6px; }
+  .photo-frame { padding: 3px; }
   /* Horizontal dot rows would crowd out the photo on a phone, so the
      sides collapse to just the arrows and the dots wrap underneath. */
   .carousel-stage { gap: 0.5rem; flex-wrap: wrap; }

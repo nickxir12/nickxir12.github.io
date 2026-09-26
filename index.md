@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=40' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=41' | relative_url }}">
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
@@ -43,11 +43,11 @@ title: "Home"
       <div class="news-section">
         <div class="news-item">
           <span class="news-date">September 2026</span>
-          <p>Our paper <em>"More Capable, Less Faithful: A Multilingual Analysis of Mathematical (Un)Solvability Detection in LLMs"</em> was accepted at the MRL Workshop @ EMNLP 2026</p>
+          <p>Our paper <em>"More Capable, Less Faithful: A Multilingual Analysis of Mathematical (Un)Solvability Detection in LLMs"</em> was accepted at the <strong>MRL Workshop @ EMNLP 2026</strong></p>
         </div>
         <div class="news-item">
           <span class="news-date">August 2026</span>
-          <p>Our paper <em>"Beyond Magnitude: Contrastive Routing for Modular Mixture-of-Experts"</em> was accepted at the EMNLP 2026 Main Conference</p>
+          <p>Our paper <em>"Beyond Magnitude: Contrastive Routing for Modular Mixture-of-Experts"</em> was accepted at the <strong>EMNLP 2026 Main Conference</strong></p>
         </div>
         <div class="news-item">
           <span class="news-date">October 2025</span>

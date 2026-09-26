@@ -4,7 +4,7 @@ permalink: /projects.html
 ---
 
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=40' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=41' | relative_url }}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -33,7 +33,7 @@ permalink: /projects.html
 <section class="section-box">
   <div class="project-list">
     <div class="project-card card">
-      <h3>More Capable, Less Faithful: A Multilingual Analysis of Mathematical (Un)Solvability Detection in LLMs</h3>
+      <h3>A Multilingual Analysis of Mathematical (Un)Solvability Detection in LLMs</h3>
       <p>A multilingual benchmark of solvable and unsolvable math problems, showing that higher-resource languages like English flag unsolvable problems less faithfully.</p>
       <p class="conference-note">Accepted at MRL Workshop @ EMNLP 2026.</p>
       <div class="paper-links">
