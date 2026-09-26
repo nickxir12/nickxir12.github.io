@@ -575,6 +575,42 @@ a.skip-to-content {
   font-weight: 600;
 }
 
+/* arXiv logo link under each paper */
+.paper-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+.paper-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border);
+  background: var(--bg-surface);
+  color: #b31b1b !important;
+  font-size: 1.9rem;
+  box-shadow: var(--shadow-sm);
+  transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.paper-link:hover {
+  background: #b31b1b;
+  border-color: #b31b1b;
+  color: #fff !important;
+  transform: translateY(-2px);
+  text-decoration: none !important;
+}
+
+.paper-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
 /* =============================
    GENERIC CARDS
 ============================= */

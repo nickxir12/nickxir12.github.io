@@ -4,7 +4,8 @@ permalink: /projects.html
 ---
 
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=38' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=39' | relative_url }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
 
 {% include nav.html %}
 
@@ -33,19 +34,27 @@ permalink: /projects.html
     <div class="project-card card">
       <h3>More Capable, Less Faithful: A Multilingual Analysis of Mathematical (Un)Solvability Detection in LLMs</h3>
       <p>The first multilingual benchmark of paired solvable and unsolvable math problems, extending ReliableMath to French and Greek. Solvability is encoded as a largely language-agnostic feature, yet higher-resource languages like English are less faithful at flagging unsolvable problems.</p>
-      <p class="conference-note">Accepted at MRL Workshop @ EMNLP 2026. Preprint available on <a href="https://arxiv.org/abs/2608.30463" target="_blank" rel="noopener">arXiv</a>.</p>
+      <p class="conference-note">Accepted at MRL Workshop @ EMNLP 2026.</p>
+      <div class="paper-links">
+        <a class="paper-link" href="https://arxiv.org/abs/2608.30463" target="_blank" rel="noopener" title="arXiv preprint" aria-label="arXiv preprint"><i class="ai ai-arxiv"></i></a>
+      </div>
     </div>
 
     <div class="project-card card">
       <h3>Disentangling Knowledge and Verbalization in LLMs</h3>
       <p>Paper showing that LLMs encode <em>knowing</em> a math problem is unsolvable separately from <em>saying</em> so, as distinct linearly decodable directions.</p>
-      <p class="conference-note">Preprint available on <a href="https://arxiv.org/abs/2607.05013" target="_blank" rel="noopener">arXiv</a>.</p>
+      <div class="paper-links">
+        <a class="paper-link" href="https://arxiv.org/abs/2607.05013" target="_blank" rel="noopener" title="arXiv preprint" aria-label="arXiv preprint"><i class="ai ai-arxiv"></i></a>
+      </div>
     </div>
 
     <div class="project-card card">
       <h3>Contrastive Routing for Mixture-of-Experts</h3>
       <p>Instead of routing on absolute magnitude, CoRM contrasts each token against an EMA of the layer's hidden states, concentrating the routing signal onto a low-dimensional separable subspace.</p>
-      <p class="conference-note">Accepted at EMNLP 2026 (Main). Preprint available on <a href="https://arxiv.org/abs/2609.01100" target="_blank" rel="noopener">arXiv</a>.</p>
+      <p class="conference-note">Accepted at EMNLP 2026 (Main).</p>
+      <div class="paper-links">
+        <a class="paper-link" href="https://arxiv.org/abs/2609.01100" target="_blank" rel="noopener" title="arXiv preprint" aria-label="arXiv preprint"><i class="ai ai-arxiv"></i></a>
+      </div>
     </div>
 
     <div class="project-card card">
@@ -57,7 +66,10 @@ permalink: /projects.html
     <div class="project-card card">
       <h3>Multimodal Sentiment Analysis</h3>
       <p><em>Segregate, Refine, Integrate: Decomposing Multimodal Fusion for Sentiment Analysis</em></p>
-      <p class="conference-note">Accepted at Interspeech 2026. Available on <a href="https://arxiv.org/abs/2607.12686" target="_blank" rel="noopener">arXiv</a>.</p>
+      <p class="conference-note">Accepted at Interspeech 2026.</p>
+      <div class="paper-links">
+        <a class="paper-link" href="https://arxiv.org/abs/2607.12686" target="_blank" rel="noopener" title="arXiv preprint" aria-label="arXiv preprint"><i class="ai ai-arxiv"></i></a>
+      </div>
     </div>
 
     <div class="project-card card">
